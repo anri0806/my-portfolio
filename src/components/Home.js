@@ -1,5 +1,3 @@
-import AboutMe from "./AboutMe";
-
 import githubLogo from "../images/github-mark.png";
 import linkedInLogo from "../images/LI-In-Bug.png";
 import mediumLogo from "../images/medium.png";
@@ -17,7 +15,6 @@ function Home() {
       <a href="https://medium.com/@anri.kawahara">
         <img className="logo-link" src={mediumLogo} alt="medium logo" />{" "}
       </a>
-      
     </>
   );
 }
