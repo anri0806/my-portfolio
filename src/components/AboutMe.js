@@ -1,10 +1,10 @@
-
 function AboutMe() {
-    return(
-        <>
-        <h1>AboutMe</h1>
-        </>
-    )
+  return (
+    <>
+      <br />
+      <h1>AboutMe</h1>
+    </>
+  );
 }
 
-export default AboutMe
+export default AboutMe;
