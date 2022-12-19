@@ -6,7 +6,6 @@ import exerciseLogo from "../images/exercises.png";
 import carpenterLogo from "../images/carpenter.png";
 import pianoLogo from "../images/piano.png";
 
-
 function AboutMe() {
   return (
     <>
