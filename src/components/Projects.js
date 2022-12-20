@@ -24,9 +24,9 @@ function Projects() {
         <p>code</p>
       </a>
       <h4>Flags of the World</h4>
-      <a href="">
+      {/* <a href=""> */}
         <p>demo</p>
-      </a>
+      {/* </a> */}
       <a href="https://github.com/anri0806/flags-of-the-world">
         <p>code</p>
       </a>
