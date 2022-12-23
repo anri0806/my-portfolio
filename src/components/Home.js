@@ -4,7 +4,7 @@ import mediumLogo from "../images/medium.png";
 
 function Home() {
   return (
-    <>
+    <div>
       <h1>Hi, I'm Anri. I'm a software engineer.</h1>
       <a href="https://github.com/anri0806">
         <img className="logo-link" src={githubLogo} alt="github logo" />
@@ -15,7 +15,7 @@ function Home() {
       <a href="https://medium.com/@anri.kawahara">
         <img className="logo-link" src={mediumLogo} alt="medium logo" />{" "}
       </a>
-    </>
+    </div>
   );
 }
 
