@@ -32,7 +32,7 @@ code {
 }
 
 .home {
-  background-image: url("./images/Home.png");
+  background-image: url("./images/home-bcgrd.png");
   position: fixed;
   left: 0;
   top: 0;
@@ -44,6 +44,6 @@ code {
 }
 
 .home .title {
-  margin-top: 20%;
+  margin-top: 35%;
   margin-left: 30%;
 }
