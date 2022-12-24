@@ -43,7 +43,19 @@ code {
   background-size: cover;
 }
 
-.home .title {
-  margin-top: 35%;
+.nav-bar {
+  margin-top: 36%;
   margin-left: 30%;
+}
+
+.home-btn {
+  /* border-style: solid;
+  border-color: orange; */
+  border-radius: 45%;
+  width: 18%;
+  margin: 10px;
+}
+
+.nav-bar img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.488), 0 6px 20px 0 rgba(0, 0, 0, 0.456);
 }

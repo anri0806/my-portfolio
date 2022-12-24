@@ -1,9 +1,10 @@
-import NavBar from "./NavBar";
+import HomeNavBar from "./HomeNavBar";
 
 function Home() {
   return (
     <div className="home">
-      <NavBar />
+     
+      <HomeNavBar />
     </div>
   );
 }
