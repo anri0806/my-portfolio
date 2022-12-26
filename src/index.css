@@ -49,14 +49,25 @@ code {
 }
 
 .home-btn {
-  /* border-style: solid;
-  border-color: orange; */
+  /* border: 1px solid white; */
   border-radius: 45%;
   width: 18%;
-  margin: 10px;
+  margin: 20px;
 }
 
 .nav-bar img:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.488),
     0 6px 20px 0 rgba(0, 0, 0, 0.456);
+}
+
+.projects {
+  background-image: url("./images/projects-background.png");
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

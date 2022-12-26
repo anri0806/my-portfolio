@@ -1,7 +1,10 @@
+import NavBar from "./NavBar";
+
 function Projects() {
   return (
-    <>
-      <h1>Projects</h1>
+    <div className="projects">
+      <NavBar />
+
       <h4>Invite Only</h4>
       <a href="https://youtu.be/GQoX64CcZJA">
         <p>demo</p>
@@ -25,12 +28,12 @@ function Projects() {
       </a>
       <h4>Flags of the World</h4>
       {/* <a href=""> */}
-        <p>demo</p>
+      <p>demo</p>
       {/* </a> */}
       <a href="https://github.com/anri0806/flags-of-the-world">
         <p>code</p>
       </a>
-    </>
+    </div>
   );
 }
 
