@@ -71,3 +71,14 @@ code {
   background-position: center;
   background-size: cover;
 }
+
+.project-box {
+  /* margin: auto; */
+  width: 100%;
+  height: auto;
+  background-image: url("./images/project-box.png");
+  /* position: fixed; */
+  background-repeat: no-repeat;
+  background-position: center;
+  /* display: inline; */
+}
