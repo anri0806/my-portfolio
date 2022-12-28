@@ -60,6 +60,10 @@ code {
     0 6px 20px 0 rgba(0, 0, 0, 0.456);
 } */
 
+/* .projects {
+  position: relative;
+} */
+
 .projects {
   background-image: url("./images/projects-background.png");
   position: fixed;
@@ -72,14 +76,16 @@ code {
   background-size: cover;
 }
 
-.project-box {
-  /* margin: auto; */
-  width: 100%;
-  height: auto;
-  background-image: url("./images/project-box.png");
-  /* position: fixed; */
-  background-repeat: no-repeat;
-  background-position: center;
-  /* display: inline; */
+.project-content {
+  position: relative;
 }
 
+.project-box {
+  /* height: 50%;
+  background-image: url("./images/project-box.png");
+  background-repeat: no-repeat; */
+  /* background-position: center; */
+  display: inline-block;
+  margin: 15% 8%;
+  width: 200px;
+}

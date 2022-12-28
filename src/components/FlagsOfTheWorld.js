@@ -2,6 +2,10 @@ function FlagsOfTheWorld() {
   return (
     <div className="project-box">
       <h4>Flags of the World</h4>
+      <p>
+        A flag quiz game app that allows users to learn country flags and test
+        their knowledge.
+      </p>
       {/* <a href=""> */}
       <p>demo</p>
       {/* </a> */}

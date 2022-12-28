@@ -8,10 +8,12 @@ function Projects() {
   return (
     <div className="projects">
       <NavBar />
-      <InviteOnly />
-      <FamilyAlbum />
-      <BabyLogbook />
-      <FlagsOfTheWorld />
+      <div className="project-content">
+        <InviteOnly />
+        <FamilyAlbum />
+        <BabyLogbook />
+        <FlagsOfTheWorld />
+      </div>
     </div>
   );
 }
