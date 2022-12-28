@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
 
-import aboutButton from "../images/about.png";
-import skillsButton from "../images/skills.png";
-import projectsButton from "../images/projects.png";
+import aboutButton from "../images/1.png";
+import skillsButton from "../images/2.png";
+import projectsButton from "../images/3.png";
 
 function HomeNavBar() {
   return (
