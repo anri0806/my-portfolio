@@ -7,8 +7,10 @@ import FlagsOfTheWorld from "./FlagsOfTheWorld";
 function Projects() {
   return (
     <div className="projects">
-      <NavBar />
-      <div className="project-content">
+      <div className="projects-navbar">
+        <NavBar />
+      </div>
+      <div className="projects-container">
         <InviteOnly />
         <FamilyAlbum />
         <BabyLogbook />

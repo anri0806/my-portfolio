@@ -74,10 +74,16 @@ code {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  /* overflow-y: scroll; */
 }
 
-.project-content {
-  position: relative;
+.projects-navbar {
+  position: fixed;
+}
+
+.projects .projects-container {
+  margin: 17% 5%;
+  width: 90%;
 }
 
 .project-box {
@@ -86,6 +92,6 @@ code {
   background-repeat: no-repeat; */
   /* background-position: center; */
   display: inline-block;
-  margin: 15% 8%;
+  margin: 0 10px;
   width: 200px;
 }
