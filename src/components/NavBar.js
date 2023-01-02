@@ -1,13 +1,21 @@
-import { NavLink } from "react-router-dom";
+import Nav from "react-bootstrap/Nav";
 
 function NavBar() {
   return (
-    <div>
-      <NavLink className="nav-link" to="/">Home</NavLink>
-      <NavLink className="nav-link" to="/about">About Me</NavLink>
-      <NavLink className="nav-link" to="/skills">Skills</NavLink>
-      <NavLink className="nav-link" to="/projects">Projects</NavLink>
-    </div>
+    <Nav>
+      <Nav.Link className="nav-link" to="/">
+        Home
+      </Nav.Link>
+      <Nav.Link className="nav-link" to="/about">
+        About Me
+      </Nav.Link>
+      <Nav.Link className="nav-link" to="/skills">
+        Skills
+      </Nav.Link>
+      <Nav.Link className="nav-link" to="/projects">
+        Projects
+      </Nav.Link>
+    </Nav>
   );
 }
 

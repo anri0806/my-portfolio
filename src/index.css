@@ -45,14 +45,16 @@ code {
 
 .nav-bar {
   margin-top: 36%;
-  margin-left: 30%;
+  margin-left: 40%;
+}
+
+.home-nav-link {
+  width: 28%;
 }
 
 .home-btn {
-  /* border: 1px solid white; */
-  /* border-radius: 45%; */
-  width: 22%;
-  margin-top: 14px;
+  width: 100%;
+  /* margin-top: 14px; */
 }
 
 /* .nav-bar img:hover {
