@@ -1,3 +1,5 @@
+import NavBar from "./NavBar";
+
 import htmlLogo from "../images/html.png";
 import cssLogo from "../images/css.png";
 import jsLogo from "../images/js.png";
@@ -12,6 +14,7 @@ import bootstrapLogo from "../images/bootstrap.png";
 function Skills() {
   return (
     <>
+      <NavBar />
       <h1>Skills</h1>
       <img className="skills-logo" src={htmlLogo} alt="html" />
       <img className="skills-logo" src={cssLogo} alt="css" />

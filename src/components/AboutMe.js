@@ -1,3 +1,5 @@
+import NavBar from "./NavBar";
+
 import travelLogo from "../images/travel-and-tourism.png";
 import hikingLogo from "../images/hiking.png";
 import gameLogo from "../images/game-console.png";
@@ -12,6 +14,7 @@ import mediumLogo from "../images/medium.png";
 function AboutMe() {
   return (
     <>
+    <NavBar />
       <br />
       <h1>AboutMe</h1>
       <p>
