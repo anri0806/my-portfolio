@@ -3,7 +3,7 @@ import flagsWorld from "../images/flag-world.png";
 function FlagsOfTheWorld() {
   return (
     <div className="project-box">
-      <div className="project-container">
+      <div className="project">
         <div className="default-image">
           <img src={flagsWorld} alt="flags of the world" />
         </div>

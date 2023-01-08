@@ -3,7 +3,7 @@ import familyAlbum from "../images/family-album.png";
 function FamilyAlbum() {
   return (
     <div className="project-box">
-      <div className="project-container">
+      <div className="project">
         <div className="default-image">
           <img src={familyAlbum} alt="family album" />
         </div>

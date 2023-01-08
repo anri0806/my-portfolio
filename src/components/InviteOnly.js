@@ -3,7 +3,7 @@ import inviteOnly from "../images/invite-only.png";
 function InviteOnly() {
   return (
     <div className="project-box">
-      <div className="project-container">
+      <div className="project">
         <div className="default-image">
           <img src={inviteOnly} alt="invite only" />
         </div>

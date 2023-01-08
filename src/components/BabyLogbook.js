@@ -3,7 +3,7 @@ import babyLogBook from "../images/baby-logbook.png";
 function BabyLogbook() {
   return (
     <div className="project-box">
-      <div className="project-container">
+      <div className="project">
         <div className="default-image">
           <img src={babyLogBook} alt="baby logbook" />
         </div>
