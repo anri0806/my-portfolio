@@ -13,9 +13,9 @@ function FlagsOfTheWorld() {
             A flag quiz game app that allows users to learn country flags and
             test their knowledge.
           </p>
-          <a href="">
+          {/* <a href="">
             <p>demo</p>
-          </a>
+          </a> */}
           <a href="https://github.com/anri0806/flags-of-the-world">
             <p>code</p>
           </a>
