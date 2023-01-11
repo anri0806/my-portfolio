@@ -1,4 +1,6 @@
 import babyLogBook from "../images/baby-logbook.png";
+import githubLogo from "../images/github-mark.png";
+import demoLogo from "../images/demo.png";
 
 function BabyLogbook() {
   return (
@@ -13,12 +15,25 @@ function BabyLogbook() {
             A daily tracker where parents can record their baby's milestones,
             doctor appointments and immunizations.
           </p>
-          <a href="https://youtu.be/NNqnDEDgGkM">
-            <p>demo</p>
-          </a>
-          <a href="https://github.com/anri0806/baby_logbook_frontend">
-            <p>code</p>
-          </a>
+          <p className="project-technologies">React</p>
+          <p className="project-technologies">Sinatra</p>
+          <p className="project-technologies">Bootstrap</p>
+          <div className="project-logo-container">
+            <a href="https://youtu.be/NNqnDEDgGkM">
+              <img
+                className="project-demo-logo"
+                src={demoLogo}
+                alt="demo logo"
+              />
+            </a>
+            <a href="https://github.com/anri0806/baby_logbook_frontend">
+              <img
+                className="project-code-logo"
+                src={githubLogo}
+                alt="github logo"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
