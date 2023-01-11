@@ -3,6 +3,7 @@ import InviteOnly from "./InviteOnly";
 import FamilyAlbum from "./FamilyAlbum";
 import BabyLogbook from "./BabyLogbook";
 import FlagsOfTheWorld from "./FlagsOfTheWorld";
+import titleImg from "../images/project-title.png";
 
 function Projects() {
   return (
@@ -10,6 +11,7 @@ function Projects() {
       <div className="projects-navbar">
         <NavBar />
       </div>
+      <img className="projects-title" src={titleImg} alt="projects" />
       <div className="projects-container">
         <InviteOnly />
         <FamilyAlbum />

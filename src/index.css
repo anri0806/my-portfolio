@@ -33,7 +33,7 @@ code {
 
 .home {
   background-image: url("./images/home background.png");
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   width: 100%;
@@ -58,7 +58,7 @@ code {
 
 .projects {
   background-image: url("./images/projects-background.png");
-  position: fixed;
+  position: static;
   left: 0;
   top: 0;
   width: 100%;
@@ -74,14 +74,15 @@ code {
 }
 
 .projects .projects-container {
-  margin: 10% 0%;
+  /* margin: 10% 0%; */
+}
+
+.projects-title {
+  width: 20%;
+  margin: 3% 0 2%;
 }
 
 .project-box {
-  /* height: 50%;
-  background-image: url("./images/project-box.png");
-  background-repeat: no-repeat; */
-  /* background-position: center; */
   display: inline-block;
   margin: 20px;
   width: 28%;
