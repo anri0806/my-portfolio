@@ -1,4 +1,6 @@
 import inviteOnly from "../images/invite-only.png";
+import githubLogo from "../images/github-mark.png";
+import demoLogo from "../images/demo.png";
 
 function InviteOnly() {
   return (
@@ -13,12 +15,27 @@ function InviteOnly() {
             A private social media app where invited users can share posts and
             photos and create their own private group.
           </p>
-          <a href="https://youtu.be/GQoX64CcZJA">
-            <p>demo</p>
-          </a>
-          <a href="https://github.com/anri0806/invite-only">
-            <p>code</p>
-          </a>
+          <p className="project-technologies">React</p>
+          <p className="project-technologies">Ruby on Rails</p>
+          <p className="project-technologies">Bootstrap</p>
+          <p className="project-technologies">PostGres</p>
+          <br />
+          <div className="project-logo-container">
+            <a href="https://youtu.be/GQoX64CcZJA">
+              <img
+                className="project-demo-logo"
+                src={demoLogo}
+                alt="demo logo"
+              />
+            </a>
+            <a href="https://github.com/anri0806/invite-only">
+              <img
+                className="project-code-logo"
+                src={githubLogo}
+                alt="github logo"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>

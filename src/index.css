@@ -74,7 +74,7 @@ code {
 }
 
 .projects .projects-container {
-  margin: 15% 0;
+  margin: 10% 0%;
 }
 
 .project-box {
@@ -83,8 +83,8 @@ code {
   background-repeat: no-repeat; */
   /* background-position: center; */
   display: inline-block;
-  margin: 10px 10px;
-  width: 30%;
+  margin: 20px;
+  width: 28%;
   box-shadow: 0 4px 8px 0 rgba(8, 7, 7, 0.455),
     0 6px 20px 0 rgba(0, 0, 0, 0.431);
   border-radius: 8px;
@@ -120,4 +120,26 @@ code {
 
 .project:hover .hover-info {
   display: block;
+}
+
+.project-technologies {
+  display: inline-block;
+  margin: 2px;
+  background-color: rgba(225, 201, 219, 0.849);
+  border-radius: 9px;
+  padding: 1px 7px;
+  font-size: 12px;
+  color: #495251;
+}
+
+.project-logo-container {
+  margin-top: 3%;
+}
+
+.project-code-logo {
+  width: 25px;
+}
+
+.project-demo-logo {
+  width: 35px;
 }
