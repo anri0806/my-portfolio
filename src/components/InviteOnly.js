@@ -18,7 +18,8 @@ function InviteOnly() {
           <p className="project-technologies">React</p>
           <p className="project-technologies">Ruby on Rails</p>
           <p className="project-technologies">Bootstrap</p>
-          <p className="project-technologies">Devise Invitable</p>
+          <p className="project-technologies">AWS</p>
+
           <div className="project-logo-container">
             <a href="https://youtu.be/GQoX64CcZJA">
               <img
