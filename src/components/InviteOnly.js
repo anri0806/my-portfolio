@@ -19,7 +19,6 @@ function InviteOnly() {
           <p className="project-technologies">Ruby on Rails</p>
           <p className="project-technologies">Bootstrap</p>
           <p className="project-technologies">PostGres</p>
-          <br />
           <div className="project-logo-container">
             <a href="https://youtu.be/GQoX64CcZJA">
               <img
