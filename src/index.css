@@ -63,18 +63,28 @@ code {
 }
 
 .skills-title {
-  width: 20%;
-  margin: 3% 0 2%;
+  width: 22%;
+  float: left;
+  margin-top: 22%;
+  margin-left: 4%;
 }
 
 .skills-container {
-  width: 80%;
-  margin: auto;
+  margin: 18% 5% 0 40%;
+  text-align: left;
+}
+
+.skill-category {
+  color: rgb(250, 234, 249);
+  border-left: 1px solid rgb(250, 234, 249);
+  padding-left: 10px;
 }
 
 .skill {
-  margin: 5px;
+  margin: 15px 15px 15px 0;
   display: inline-block;
+  color: rgb(250, 234, 249);
+  padding-left: 8px;
 }
 
 .skills-logo {

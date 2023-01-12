@@ -17,34 +17,53 @@ function Skills() {
       {/* <NavBar /> */}
       <img className="skills-title" src={skillsTitle} alt="skills" />
       <div className="skills-container">
+        <h4 className="skill-category">Front end</h4>
         <h4 className="skill">
-          <img className="skills-logo" src={htmlLogo} alt="html" /> HTML
+          {/* <img className="skills-logo" src={htmlLogo} alt="html" />  */}
+          HTML
         </h4>
         <h4 className="skill">
-          <img className="skills-logo" src={cssLogo} alt="css" /> CSS
+          {/* <img className="skills-logo" src={cssLogo} alt="css" />  */}
+          CSS
         </h4>
         <h4 className="skill">
-          <img className="skills-logo" src={jsLogo} alt="js" /> Javascript
+          {/* <img className="skills-logo" src={jsLogo} alt="js" />  */}
+          Javascript
         </h4>
         <h4 className="skill">
-          <img className="skills-logo" src={reactLogo} alt="react" /> React
+          {/* <img className="skills-logo" src={reactLogo} alt="react" /> */}
+          React
+        </h4>
+        <h4 className="skill">Redux</h4>
+        <h4 className="skill">
+          {/* <img className="skills-logo" src={bootstrapLogo} alt="bootstrap" /> */}
+          Bootstrap
+        </h4>
+        <h4 className="skill-category">Back end</h4>
+        <h4 className="skill">
+          {/* <img className="skills-logo" src={rubyLogo} alt="ruby" /> */}
+          Ruby
         </h4>
         <h4 className="skill">
-          <img className="skills-logo" src={rubyLogo} alt="ruby" /> Ruby
+          {/* <img className="skills-logo" src={railsLogo} alt="rails" />  */}
+          Rails
         </h4>
+        <h4 className="skill">Bcrypt</h4>
         <h4 className="skill">
-          <img className="skills-logo" src={railsLogo} alt="rails" /> Rails
-        </h4>
-        <h4 className="skill">
-          <img className="skills-logo" src={githubLogo} alt="github" /> GitHub
-        </h4>
-        <h4 className="skill">
-          <img className="skills-logo" src={postgresLogo} alt="PostgreSQL" />
+          {/* <img className="skills-logo" src={postgresLogo} alt="PostgreSQL" /> */}
           PostgreSQL
         </h4>
+        <h4 className="skill">SQLite</h4>
+        <h4 className="skill-category">Others</h4>
         <h4 className="skill">
-          <img className="skills-logo" src={bootstrapLogo} alt="bootstrap" />
-          Bootstrap
+          {/* <img className="skills-logo" src={githubLogo} alt="github" />  */}{" "}
+          GitHub
+        </h4>
+        <h4 className="skill">
+          AWS
+        </h4>
+        <h4 className="skill">
+          Firebase
         </h4>
       </div>
     </div>
