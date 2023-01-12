@@ -1,6 +1,10 @@
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from "react-bootstrap/Carousel";
 
 import NavBar from "./NavBar";
+
+import profilePic1 from "../images/about-me-pic1.jpeg";
+import profilePic2 from "../images/about-me-pic2.jpeg";
+import profilePic3 from "../images/about-me-pic3.jpeg";
 
 import aboutMeTitle from "../images/about-me-title.png";
 import travelLogo from "../images/travel-and-tourism.png";
@@ -22,17 +26,29 @@ function AboutMe() {
       <NavBar />
       <img className="about-me-title" src={aboutMeTitle} alt="about me" />
 
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
+      <Carousel className="carousel">
+        <Carousel.Item>
+          <img
+            className="carousel-img"
+            src={profilePic1}
+            alt="profile picture 1"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-img"
+            src={profilePic2}
+            alt="profile picture 2"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-img"
+            src={profilePic3}
+            alt="profile picture 3"
+          />
+        </Carousel.Item>
+      </Carousel>
 
       <p>
         Hello! My name is Anri Kawahara and I am a Full Stack Software Developer

@@ -64,7 +64,16 @@ code {
 
 .about-me-title {
   width: 20%;
-  /* margin: 3% 0 2%; */
+  margin: 3% 0 2%;
+}
+
+.carousel {
+  width: 35%;
+  margin-left: 3%;
+}
+
+.carousel-img {
+  width: 100%;
 }
 
 .skills {
