@@ -13,7 +13,7 @@ import mediumLogo from "../images/medium.png";
 
 function AboutMe() {
   return (
-    <>
+    <div className="about-me">
     <NavBar />
       <br />
       <h1>AboutMe</h1>
@@ -63,7 +63,7 @@ function AboutMe() {
       <a href="https://www.flaticon.com" title="icons">
         Icons created by Flaticon
       </a>
-    </>
+    </div>
   );
 }
 
