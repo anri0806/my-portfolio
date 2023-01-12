@@ -62,9 +62,21 @@ code {
   background-size: cover;
 }
 
+.skills-title {
+  width: 20%;
+  margin: 3% 0 2%;
+}
+
+.skills-container {
+}
+
+.skill {
+  margin: 5px;
+  display: inline-block;
+}
+
 .skills-logo {
   width: 80px;
-  margin: 10px;
 }
 
 .projects {
