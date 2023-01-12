@@ -13,8 +13,8 @@ import bootstrapLogo from "../images/bootstrap.png";
 
 function Skills() {
   return (
-    <>
-      <NavBar />
+    <div className="skills">
+      {/* <NavBar /> */}
       <h1>Skills</h1>
       <img className="skills-logo" src={htmlLogo} alt="html" />
       <img className="skills-logo" src={cssLogo} alt="css" />
@@ -26,7 +26,7 @@ function Skills() {
       <img className="skills-logo" src={nodeLogo} alt="nodeJS" />
       <img className="skills-logo" src={postgresLogo} alt="PostgreSQL" />
       <img className="skills-logo" src={bootstrapLogo} alt="bootstrap" />
-    </>
+    </div>
   );
 }
 
