@@ -14,7 +14,7 @@ import skillsTitle from "../images/skills-title.png";
 function Skills() {
   return (
     <div className="skills">
-      s{/* <NavBar /> */}
+      {/* <NavBar /> */}
       <img className="skills-title" src={skillsTitle} alt="skills" />
       <div className="skills-container">
         <h4 className="skill">
