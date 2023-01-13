@@ -28,42 +28,31 @@ function AboutMe() {
 
       <Carousel className="carousel">
         <Carousel.Item>
-          <img
-            className="carousel-img"
-            src={profilePic1}
-            alt="profile1"
-          />
+          <img className="carousel-img" src={profilePic1} alt="profile1" />
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="carousel-img"
-            src={profilePic2}
-            alt="profile2"
-          />
+          <img className="carousel-img" src={profilePic2} alt="profile2" />
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="carousel-img"
-            src={profilePic3}
-            alt="profile3"
-          />
+          <img className="carousel-img" src={profilePic3} alt="profile3" />
         </Carousel.Item>
       </Carousel>
 
       <div className="bio">
         <p>
-          Hello! My name is Anri Kawahara and I am a Full Stack Software
-          Developer with a background in the Hospitality and Real Estate
-          industry. My interest in programming and technology began in the
-          middle school. I created my very first website using simple HTML and
-          completely fell in love with coding. During pandemic I finally decided
-          to pursue my passion and enrolled in the Flatiron School's Full Stack
-          Web Development Program where I fell in love with programming again!
+          Hello! My name is <b>Anri Kawahara</b> and I am a{" "}
+          <b>Full Stack Software Developer</b> with a background in the
+          Hospitality and Real Estate industry. My interest in programming and
+          technology began in the middle school. I created my very first website
+          using HTML and <b>completely fell in love with coding</b>. During
+          pandemic I finally decided to pursue my passion and enrolled in the
+          Flatiron School's Full Stack Web Development Program where I fell in
+          love with programming again!
         </p>
         <p>
-          I believe that the passion can be driving force to learn more and give
-          me all important sense of purpose to be the best possible version of
-          me.
+          I believe that the <b>passion can be driving force</b> to learn more{" "}
+          and give me all important sense of purpose to be{" "}
+          <b>the best possible version of me</b>.
         </p>
       </div>
       {/* <div className="title">
