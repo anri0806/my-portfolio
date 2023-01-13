@@ -31,39 +31,42 @@ function AboutMe() {
           <img
             className="carousel-img"
             src={profilePic1}
-            alt="profile picture 1"
+            alt="profile1"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="carousel-img"
             src={profilePic2}
-            alt="profile picture 2"
+            alt="profile2"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="carousel-img"
             src={profilePic3}
-            alt="profile picture 3"
+            alt="profile3"
           />
         </Carousel.Item>
       </Carousel>
 
-      <p>
-        Hello! My name is Anri Kawahara and I am a Full Stack Software Developer
-        with a background in the Hospitality and Real Estate industry. My
-        interest in programming and technology began in the middle school. I
-        created my very first website using simple HTML and completely fell in
-        love with coding. During pandemic I finally decided to pursue my passion
-        and enrolled in the Flatiron School's Full Stack Web Development Program
-        where I fell in love with programming again!
-      </p>
-      <p>
-        I believe that the passion can be driving force to learn more and give
-        me all important sense of purpose to be the best possible version of me.
-      </p>
-      <div className="title">
+      <div className="bio">
+        <p>
+          Hello! My name is Anri Kawahara and I am a Full Stack Software
+          Developer with a background in the Hospitality and Real Estate
+          industry. My interest in programming and technology began in the
+          middle school. I created my very first website using simple HTML and
+          completely fell in love with coding. During pandemic I finally decided
+          to pursue my passion and enrolled in the Flatiron School's Full Stack
+          Web Development Program where I fell in love with programming again!
+        </p>
+        <p>
+          I believe that the passion can be driving force to learn more and give
+          me all important sense of purpose to be the best possible version of
+          me.
+        </p>
+      </div>
+      {/* <div className="title">
         <a href="https://github.com/anri0806">
           <img className="logo-link" src={githubLogo} alt="github logo" />
         </a>
@@ -73,7 +76,7 @@ function AboutMe() {
         <a href="https://medium.com/@anri.kawahara">
           <img className="logo-link" src={mediumLogo} alt="medium logo" />{" "}
         </a>
-      </div>
+      </div> */}
       <p>Aside from work, my passions are:</p>
       <img className="about-me-logo" src={travelLogo} alt="traveling" />
       <img className="about-me-logo" src={hikingLogo} alt="hiking" />

@@ -64,12 +64,21 @@ code {
 
 .about-me-title {
   width: 20%;
-  margin: 3% 0 2%;
+  margin: auto;
+  display: block;
 }
 
 .carousel {
   width: 35%;
-  margin-left: 3%;
+  margin: 4%;
+  display: inline-block;
+}
+
+.bio {
+  display: inline-block;
+  width: 40%;
+  margin: 6% 3%;
+  vertical-align: top;
 }
 
 .carousel-img {
