@@ -26,6 +26,7 @@ function AboutMe() {
       <NavBar />
       <img className="about-me-title" src={aboutMeTitle} alt="about me" />
 
+      <div id="carousel-container">
         <Carousel className="carousel">
           <Carousel.Item>
             <img className="carousel-img" src={profilePic1} alt="profile1" />
@@ -37,6 +38,7 @@ function AboutMe() {
             <img className="carousel-img" src={profilePic3} alt="profile3" />
           </Carousel.Item>
         </Carousel>
+      </div>
 
       <div className="bio">
         <p>
