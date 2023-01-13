@@ -52,7 +52,7 @@ code {
 
 .about-me {
   background-image: url("./images/about-me-bcgd.png");
-  position: fixed;
+  position: static;
   left: 0;
   top: 0;
   width: 100%;
@@ -74,22 +74,21 @@ code {
   display: inline-block;
 }
 
+.carousel-img {
+  width: 100%;
+}
+
 .bio {
   font-size: 17px;
   display: inline-block;
   width: 40%;
   margin: 8% 3%;
   vertical-align: top;
-  /* background-color: white; */
-}
-
-.carousel-img {
-  width: 100%;
 }
 
 .skills {
   background-image: url("./images/skills-bcgd.png");
-  position: fixed;
+  position: static;
   left: 0;
   top: 0;
   width: 100%;
@@ -101,14 +100,16 @@ code {
 
 .skills-title {
   width: 22%;
+  /* display: inline-block; */
+  vertical-align: top;
+  margin: 8% 2% 8% 4%;
   float: left;
-  margin-top: 22%;
-  margin-left: 4%;
 }
 
 .skills-container {
-  margin: 18% 5% 0 45%;
+  /* margin: 18% 5% 0 45%; */
   text-align: left;
+  display: inline-block;
 }
 
 .skill-category {

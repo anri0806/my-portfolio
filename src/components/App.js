@@ -11,16 +11,16 @@ import "../App.css";
 function App() {
   return (
     <div className="App">
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<AboutMe />} />
         <Route path="skills" element={<Skills />} />
         <Route path="projects" element={<Projects />} />
-      </Routes>
-      {/* <Home />
+      </Routes> */}
+      <Home />
       <AboutMe />
       <Skills />
-      <Projects /> */}
+      <Projects />
     </div>
   );
 }

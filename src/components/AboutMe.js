@@ -26,17 +26,17 @@ function AboutMe() {
       <NavBar />
       <img className="about-me-title" src={aboutMeTitle} alt="about me" />
 
-      <Carousel className="carousel">
-        <Carousel.Item>
-          <img className="carousel-img" src={profilePic1} alt="profile1" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="carousel-img" src={profilePic2} alt="profile2" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="carousel-img" src={profilePic3} alt="profile3" />
-        </Carousel.Item>
-      </Carousel>
+        <Carousel className="carousel">
+          <Carousel.Item>
+            <img className="carousel-img" src={profilePic1} alt="profile1" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="carousel-img" src={profilePic2} alt="profile2" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="carousel-img" src={profilePic3} alt="profile3" />
+          </Carousel.Item>
+        </Carousel>
 
       <div className="bio">
         <p>
