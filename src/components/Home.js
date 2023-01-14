@@ -5,10 +5,13 @@ import myPic from "../images/home-mypic.jpeg";
 import githubLogo from "../images/github-mark.png";
 import linkedInLogo from "../images/LI-In-Bug.png";
 import mediumLogo from "../images/medium.png";
+import akLogo from "../images/ak-logo.png";
+
 
 function Home() {
   return (
     <div className="home">
+      <img id="home-ak-logo" src={akLogo} alt="AK" />
       <p id="home-my-name">Anri Kawahara</p>
       <img id="home-my-pic" src={myPic} alt="snow view" />
       <HomeNavBar />
