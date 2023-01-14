@@ -15,16 +15,21 @@ code {
 
 .home #home-my-name {
   color: #cfb2db;
-  font-size: 8vw ;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 7vw;
+  font-family: Playfair Display, serif;
+  font-weight: 900;
+  margin-top: 7%;
 }
 
 .home #home-job-title {
   color: #cfb2db;
+  font-family: Playfair Display, serif;
+  font-size: 3vw;
+  margin-top: 8%;
 }
 
 .nav-bar {
-  margin-top: 26%;
+  margin-top: 11%;
   margin-left: 75%;
   display: block;
   text-align: left;
