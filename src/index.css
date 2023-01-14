@@ -105,18 +105,28 @@ code {
   font-size: 1.1vw;
   display: inline-block;
   width: 39%;
-  margin: 8% 3% 3%;
+  margin: 8% 3% 6%;
   vertical-align: top;
   color: #e8e4ea;
 }
 
 #about-me-icons p {
   color: #e8e4ea;
+  /* display: inline-block; */
+  font-size: 12px;
+}
+
+#about-me-icons .about-me-hobby-icon {
+  align-content: center;
+  display: inline-block;
+  margin: 0% 3%;
+  width: 6%;
+  vertical-align: top;
 }
 
 #about-me-icons .about-me-logo {
-  width: 3.5%;
-  margin-left: 90px;
+  width: 40px;
+  margin: 0;
 }
 
 .skills {

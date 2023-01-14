@@ -13,6 +13,7 @@ import dogLogo from "../images/boston-terrier.png";
 import exerciseLogo from "../images/exercises.png";
 import carpenterLogo from "../images/carpenter.png";
 import pianoLogo from "../images/piano.png";
+import flagLogo from "../images/countries.png";
 
 function AboutMe() {
   /// ADD fun facts? => born and raised in Japan, memorized all the country flags
@@ -57,20 +58,44 @@ function AboutMe() {
       </Carousel>
 
       <div id="about-me-icons">
-        <p>Aside from work, my passions are:</p>
-        <img className="about-me-logo" src={travelLogo} alt="traveling" />
-        <img className="about-me-logo" src={hikingLogo} alt="hiking" />
-        <img className="about-me-logo" src={gameLogo} alt="game" />
-        <img className="about-me-logo" src={dogLogo} alt="boston terrier" />
-        <img className="about-me-logo" src={exerciseLogo} alt="exercise" />
-        <img
-          className="about-me-logo"
-          src={carpenterLogo}
-          alt="build and make things"
-        />
-        <img className="about-me-logo" src={pianoLogo} alt="playing piano" />
+        {/* <p>Aside from work, my passions are:</p> */}
+        <div className="about-me-hobby-icon">
+          <img className="about-me-logo" src={travelLogo} alt="traveling" />
+          <p>traveling</p>
+        </div>
+        <div className="about-me-hobby-icon">
+          <img className="about-me-logo" src={hikingLogo} alt="hiking" />
+          <p>hiking</p>
+        </div>
+        <div className="about-me-hobby-icon">
+          <img className="about-me-logo" src={gameLogo} alt="game" />
+          <p>playing game</p>
+        </div>
+        <div className="about-me-hobby-icon">
+          <img className="about-me-logo" src={dogLogo} alt="boston terrier" />
+          <p>my dog</p>
+        </div>
+        <div className="about-me-hobby-icon">
+          <img className="about-me-logo" src={exerciseLogo} alt="exercise" />
+          <p>working out</p>
+        </div>
+        <div className="about-me-hobby-icon">
+          <img
+            className="about-me-logo"
+            src={carpenterLogo}
+            alt="building things"
+          />
+          <p>building things</p>
+        </div>
+        <div className="about-me-hobby-icon">
+          <img className="about-me-logo" src={pianoLogo} alt="piano" />
+          <p>playing piano</p>
+        </div>
+        <div className="about-me-hobby-icon">
+          <img className="about-me-logo" src={flagLogo} alt="county flags" />
+          <p>memorizing country flags</p>
+        </div>
       </div>
-      <br />
       <a href="https://www.flaticon.com" title="icons">
         Icons created by Flaticon
       </a>
