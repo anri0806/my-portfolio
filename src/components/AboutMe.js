@@ -2,7 +2,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 import NavBar from "./NavBar";
 
-import profilePic1 from "../images/about-me-pic1.jpeg";
+// import profilePic1 from "../images/about-me-pic1.jpeg";
 import profilePic2 from "../images/about-me-pic2.jpeg";
 import profilePic3 from "../images/about-me-pic3.jpeg";
 
@@ -27,9 +27,9 @@ function AboutMe() {
       <img className="about-me-title" src={aboutMeTitle} alt="about me" />
 
       <Carousel className="carousel">
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img className="carousel-img" src={profilePic1} alt="profile1" />
-        </Carousel.Item>
+        </Carousel.Item> */}
         <Carousel.Item>
           <img className="carousel-img" src={profilePic2} alt="profile2" />
         </Carousel.Item>
