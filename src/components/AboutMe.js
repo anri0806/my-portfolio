@@ -26,30 +26,29 @@ function AboutMe() {
       <NavBar />
       <img className="about-me-title" src={aboutMeTitle} alt="about me" />
 
-      <div id="carousel-container">
-        <Carousel className="carousel">
-          <Carousel.Item>
-            <img className="carousel-img" src={profilePic1} alt="profile1" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="carousel-img" src={profilePic2} alt="profile2" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="carousel-img" src={profilePic3} alt="profile3" />
-          </Carousel.Item>
-        </Carousel>
-      </div>
+      <Carousel className="carousel">
+        <Carousel.Item>
+          <img className="carousel-img" src={profilePic1} alt="profile1" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="carousel-img" src={profilePic2} alt="profile2" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="carousel-img" src={profilePic3} alt="profile3" />
+        </Carousel.Item>
+      </Carousel>
 
       <div className="bio">
         <p>
-          Hello! My name is <b>Anri Kawahara</b> and I am a{" "}
-          <b>Full Stack Software Developer</b> with a background in the
-          Hospitality and Real Estate industry. My interest in programming and
-          technology began in the middle school. I created my very first website
-          using HTML and <b>completely fell in love with coding</b>. During
-          pandemic I finally decided to pursue my passion and enrolled in the
-          Flatiron School's Full Stack Web Development Program where I fell in
-          love with programming again!
+          Hello! My name is <b>Anri Kawahara</b> and I was born and raised in{" "}
+          <b>Japan</b>🇯🇵 I am a <b>Full Stack Software Developer</b> with a
+          background in the Hospitality and Real Estate industry. My interest in
+          programming and technology began in the middle school. I created my
+          very first website using HTML and{" "}
+          <b>completely fell in love with coding</b>. During pandemic I finally
+          decided to pursue my passion and enrolled in the Flatiron School's
+          Full Stack Web Development Program where I fell in love with
+          programming again!
         </p>
         <p>
           I believe that the <b>passion can be driving force</b> to learn more{" "}
