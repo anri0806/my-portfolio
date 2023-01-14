@@ -21,15 +21,13 @@ code {
   margin-top: 7%;
 }
 
-.home #home-job-title {
-  color: #cfb2db;
-  font-family: Playfair Display, serif;
-  font-size: 3vw;
-  margin-top: 8%;
+.home #home-brush {
+  width: 12%;
+  margin: 6% 34% 0 0;
 }
 
 .nav-bar {
-  margin-top: 11%;
+  margin-top: 6%;
   margin-left: 75%;
   display: block;
   text-align: left;
@@ -40,8 +38,11 @@ code {
   padding: 0;
 }
 
-.home-btn {
-  width: 100%;
+.home #home-job-title {
+  color: #cfb2db;
+  font-family: Playfair Display, serif;
+  font-size: 3vw;
+  margin-top: 2%;
 }
 
 .logo-link {
