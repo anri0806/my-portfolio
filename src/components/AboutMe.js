@@ -45,7 +45,7 @@ function AboutMe() {
       </div>
 
       <Carousel className="carousel">
-      <Carousel.Item>
+        <Carousel.Item>
           <img className="carousel-img" src={profilePic1} alt="profile1" />
         </Carousel.Item>
         <Carousel.Item>
@@ -56,19 +56,20 @@ function AboutMe() {
         </Carousel.Item>
       </Carousel>
 
-      <p>Aside from work, my passions are:</p>
-      <img className="about-me-logo" src={travelLogo} alt="traveling" />
-      <img className="about-me-logo" src={hikingLogo} alt="hiking" />
-      <img className="about-me-logo" src={gameLogo} alt="game" />
-      <img className="about-me-logo" src={dogLogo} alt="boston terrier" />
-      <img className="about-me-logo" src={exerciseLogo} alt="exercise" />
-      <img
-        className="about-me-logo"
-        src={carpenterLogo}
-        alt="build and make things"
-      />
-      <img className="about-me-logo" src={pianoLogo} alt="playing piano" />
-
+      <div id="about-me-icons">
+        <p>Aside from work, my passions are:</p>
+        <img className="about-me-logo" src={travelLogo} alt="traveling" />
+        <img className="about-me-logo" src={hikingLogo} alt="hiking" />
+        <img className="about-me-logo" src={gameLogo} alt="game" />
+        <img className="about-me-logo" src={dogLogo} alt="boston terrier" />
+        <img className="about-me-logo" src={exerciseLogo} alt="exercise" />
+        <img
+          className="about-me-logo"
+          src={carpenterLogo}
+          alt="build and make things"
+        />
+        <img className="about-me-logo" src={pianoLogo} alt="playing piano" />
+      </div>
       <br />
       <a href="https://www.flaticon.com" title="icons">
         Icons created by Flaticon

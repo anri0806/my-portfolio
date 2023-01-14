@@ -110,8 +110,13 @@ code {
   color: #e8e4ea;
 }
 
-.about-me-logo {
-  width: 4%;
+#about-me-icons p {
+  color: #e8e4ea;
+}
+
+#about-me-icons .about-me-logo {
+  width: 3.5%;
+  margin-left: 90px;
 }
 
 .skills {
