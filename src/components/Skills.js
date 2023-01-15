@@ -9,14 +9,21 @@ import githubLogo from "../images/github-mark.png";
 import railsLogo from "../images/rails.png";
 import postgresLogo from "../images/PostgreSQL.png";
 import bootstrapLogo from "../images/bootstrap.png";
-import skillsTitle from "../images/skills-title.png";
+
+import brushImg3 from "../images/brush3.png";
+
 
 function Skills() {
   return (
     <div className="skills">
       {/* <NavBar /> */}
-      <img className="skills-title" src={skillsTitle} alt="skills" />
-      <div className="skills-container">
+
+      <div id="skills-title">
+        <p style={{ fontSize: "4vw" }}>02. </p>
+        <p style={{ fontWeight: "900" }}>Skills</p>
+      </div>
+
+      {/* <div className="skills-container">
         <h4 className="skill-category">Front end</h4>
         <p className="skill">
           <img className="skills-logo" src={htmlLogo} alt="html" /> HTML
@@ -59,7 +66,9 @@ function Skills() {
         </p>
         <p className="skill"> AWS</p>
         <p className="skill"> Firebase</p>
-      </div>
+      </div> */}
+
+      <img id="skills-brush" src={brushImg3} alt="brush 3" />
     </div>
   );
 }
