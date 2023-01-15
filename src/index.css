@@ -137,12 +137,13 @@ code {
 }
 
 .skills #skills-title {
-  margin: 23% 0 0 70%;
+  margin: 24% 0 0 2%;
   color: #cfb2db;
   font-size: 6vw;
   font-family: Playfair Display, serif;
-  width: 70%;
   text-align: left;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .skills #skills-title p {
@@ -152,20 +153,27 @@ code {
 }
 
 .skills #skills-brush {
-  margin: 15% 0 0 70%;
+  margin: 0 0 0 75%;
+  width: 40%;
+  position: absolute;
+  display: block;
 }
 
 .skills-container {
-  /* margin: 18% 5% 0 45%; */
+  margin: 8% 4% 0 2%;
   text-align: left;
   display: inline-block;
+  width: 50%;
 }
 
 .skill-category {
-  color: rgb(250, 234, 249);
-  border-left: 1px solid rgb(250, 234, 249);
+  font-family: Playfair Display, serif;
+  font-weight: 900;
+  font-size: 25px;
+  color: white;
+  border-left: 1px solid white;
   padding-left: 10px;
-  margin: 4% 0 0 0;
+  margin: 9% 0 0 0;
 }
 
 .skill {
@@ -173,11 +181,11 @@ code {
   display: inline-block;
   color: rgb(250, 234, 249);
   padding-left: 8px;
-  background-color: rgba(225, 201, 219, 0.849);
-  border-radius: 9px;
+  /* background-color: rgba(225, 201, 219, 0.849); */
+  /* border-radius: 9px; */
   padding: 1px 7px;
-  font-weight: bold;
-  font-size: 17px;
+  /* font-weight: bold; */
+  font-size: 15px;
 }
 
 .skills-logo {

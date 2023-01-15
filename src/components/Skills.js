@@ -12,19 +12,13 @@ import bootstrapLogo from "../images/bootstrap.png";
 
 import brushImg3 from "../images/brush3.png";
 
-
 function Skills() {
   return (
     <div className="skills">
       {/* <NavBar /> */}
 
-      <div id="skills-title">
-        <p style={{ fontSize: "4vw" }}>02. </p>
-        <p style={{ fontWeight: "900" }}>Skills</p>
-      </div>
-
-      {/* <div className="skills-container">
-        <h4 className="skill-category">Front end</h4>
+      <div className="skills-container">
+        <p className="skill-category">Front end</p>
         <p className="skill">
           <img className="skills-logo" src={htmlLogo} alt="html" /> HTML
         </p>
@@ -47,7 +41,7 @@ function Skills() {
           <img className="skills-logo" src={bootstrapLogo} alt="bootstrap" />{" "}
           Bootstrap
         </p>
-        <h4 className="skill-category">Back end</h4>
+        <p className="skill-category">Back end</p>
         <p className="skill">
           <img className="skills-logo" src={rubyLogo} alt="ruby" /> Ruby
         </p>
@@ -60,13 +54,18 @@ function Skills() {
           PostgreSQL
         </p>
         <p className="skill">SQLite</p>
-        <h4 className="skill-category">Others</h4>
+        <p className="skill-category">Others</p>
         <p className="skill">
           <img className="skills-logo" src={githubLogo} alt="github" /> GitHub
         </p>
         <p className="skill"> AWS</p>
         <p className="skill"> Firebase</p>
-      </div> */}
+      </div>
+
+      <div id="skills-title">
+        <p style={{ fontSize: "4vw" }}>02. </p>
+        <p style={{ fontWeight: "900" }}>Skills</p>
+      </div>
 
       <img id="skills-brush" src={brushImg3} alt="brush 3" />
     </div>
