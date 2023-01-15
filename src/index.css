@@ -84,6 +84,14 @@ code {
 
 .carousel-img {
   width: 100%;
+  height: 100%;
+}
+
+.about-me #carousel-brush {
+  width: 14%;
+  position: absolute;
+  top: 146%;
+  right: 5.5%;
 }
 
 .bio #about-me-title {

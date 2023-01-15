@@ -5,6 +5,7 @@ import NavBar from "./NavBar";
 import profilePic1 from "../images/about-me-pic1.jpeg";
 import profilePic2 from "../images/about-me-pic2.jpeg";
 import profilePic3 from "../images/about-me-pic3.jpeg";
+import brushImg2 from "../images/brush2.png";
 
 import travelLogo from "../images/travel-and-tourism.png";
 import hikingLogo from "../images/hiking.png";
@@ -56,6 +57,7 @@ function AboutMe() {
           <img className="carousel-img" src={profilePic3} alt="profile3" />
         </Carousel.Item>
       </Carousel>
+      <img id="carousel-brush" src={brushImg2} alt="brush 2" />
 
       <div id="about-me-icons">
         {/* <p>Aside from work, my passions are:</p> */}
