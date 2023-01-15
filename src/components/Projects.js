@@ -3,20 +3,22 @@ import InviteOnly from "./InviteOnly";
 import FamilyAlbum from "./FamilyAlbum";
 import BabyLogbook from "./BabyLogbook";
 import FlagsOfTheWorld from "./FlagsOfTheWorld";
-import titleImg from "../images/project-title.png";
 
 function Projects() {
   return (
     <div className="projects">
-      <div className="projects-navbar">
-        <NavBar />
+      {/* <NavBar /> */}
+
+      <div id="projects-title">
+        <p style={{ fontSize: "4vw" }}>03. </p>
+        <p style={{ fontWeight: "900" }}>Projects</p>
       </div>
-      <img className="projects-title" src={titleImg} alt="projects" />
+
       <div className="projects-container">
-        <InviteOnly />
+        {/* <InviteOnly />
         <FamilyAlbum />
         <BabyLogbook />
-        <FlagsOfTheWorld />
+        <FlagsOfTheWorld /> */}
       </div>
     </div>
   );
