@@ -9,6 +9,7 @@ import githubLogo from "../images/github-mark.png";
 import railsLogo from "../images/rails.png";
 import postgresLogo from "../images/PostgreSQL.png";
 import bootstrapLogo from "../images/bootstrap.png";
+import firebaseLogo from "../images/firebase.png";
 
 import brushImg3 from "../images/brush3.png";
 
@@ -36,7 +37,7 @@ function Skills() {
         <p className="skill">
           <img className="skills-logo" src={reactLogo} alt="react" /> React
         </p>
-        <p className="skill"> Redux</p>
+        {/* <p className="skill"> Redux</p> */}
         <p className="skill">
           <img className="skills-logo" src={bootstrapLogo} alt="bootstrap" />{" "}
           Bootstrap
@@ -59,7 +60,10 @@ function Skills() {
           <img className="skills-logo" src={githubLogo} alt="github" /> GitHub
         </p>
         <p className="skill"> AWS</p>
-        <p className="skill"> Firebase</p>
+        <p className="skill">
+          <img className="skills-logo" src={firebaseLogo} alt="firebase" />{" "}
+          Firebase
+        </p>
       </div>
 
       <div id="skills-title">
