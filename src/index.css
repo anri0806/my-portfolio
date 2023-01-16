@@ -13,11 +13,9 @@ code {
     monospace;
 }
 
-
 /**********  NavBar   **********/
 .nav-link {
 }
-
 
 /**********  HOME PAGE   **********/
 
@@ -76,7 +74,6 @@ code {
   width: 3%;
   margin: 0 9px;
 }
-
 
 /**********  About Me Page   **********/
 
@@ -145,9 +142,8 @@ code {
 
 /**********  Skills Page   **********/
 
-
 .skills #skills-title {
-  margin: 24% 0 0 2%;
+  margin: 24% 0 0 0;
   color: #cfb2db;
   font-size: 6vw;
   font-family: Playfair Display, serif;
@@ -202,12 +198,10 @@ code {
   width: 20px;
 }
 
-
 /**********  Projects Page   **********/
 
-
 .projects #projects-title {
-  margin: 31% 0 24% 10%;
+  margin: 17% 0 5% 40%;
   color: #cfb2db;
   font-size: 6vw;
   font-family: Playfair Display, serif;
@@ -222,18 +216,17 @@ code {
   line-height: 60px;
 }
 
-
 .projects .projects-container {
-  /* margin: 10% 0%; */
+  margin: 10% 0;
 }
 
 .project-box {
   display: inline-block;
-  margin: 20px;
-  width: 28%;
-  box-shadow: 0 4px 8px 0 rgba(8, 7, 7, 0.455),
+  margin: 11px;
+  width: 23%;
+  /* box-shadow: 0 4px 8px 0 rgba(8, 7, 7, 0.455),
     0 6px 20px 0 rgba(0, 0, 0, 0.431);
-  border-radius: 8px;
+  border-radius: 8px; */
 }
 
 .project {
@@ -242,7 +235,7 @@ code {
 
 .default-image img {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .project .hover-info {
@@ -255,7 +248,7 @@ code {
   height: 100%;
   padding: 30px;
   display: none;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .project .hover-info a {

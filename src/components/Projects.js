@@ -15,10 +15,10 @@ function Projects() {
       </div>
 
       <div className="projects-container">
-        {/* <InviteOnly />
+        <InviteOnly />
         <FamilyAlbum />
         <BabyLogbook />
-        <FlagsOfTheWorld /> */}
+        <FlagsOfTheWorld />
       </div>
     </div>
   );
