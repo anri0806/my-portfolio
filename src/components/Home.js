@@ -10,7 +10,7 @@ import akLogo from "../images/ak-logo.png";
 
 function Home() {
   return (
-    <div className="home">
+    <section className="home" id="home">
       <img id="home-ak-logo" src={akLogo} alt="AK" />
       <p id="home-my-name">Anri Kawahara</p>
       <img id="home-my-pic" src={myPic} alt="snow view" />
@@ -26,7 +26,7 @@ function Home() {
       <a href="https://medium.com/@anri.kawahara">
         <img className="logo-link" src={mediumLogo} alt="medium logo" />{" "}
       </a>
-    </div>
+    </section>
   );
 }
 

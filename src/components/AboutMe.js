@@ -20,7 +20,7 @@ function AboutMe() {
   /// ADD fun facts? => born and raised in Japan, memorized all the country flags
 
   return (
-    <div className="about-me">
+    <section className="about-me" id="about-me">
       <div className="bio">
         <div id="about-me-title">
           <p style={{ fontSize: "4vw" }}>01. </p>
@@ -101,7 +101,7 @@ function AboutMe() {
       <a href="https://www.flaticon.com" title="icons">
         Icons created by Flaticon
       </a>
-    </div>
+    </section>
   );
 }
 

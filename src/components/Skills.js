@@ -15,7 +15,7 @@ import brushImg3 from "../images/brush3.png";
 
 function Skills() {
   return (
-    <div className="skills">
+    <section className="skills" id="skills">
       {/* <NavBar /> */}
 
       <div className="skills-container">
@@ -72,7 +72,7 @@ function Skills() {
       </div>
 
       <img id="skills-brush" src={brushImg3} alt="brush 3" />
-    </div>
+    </section>
   );
 }
 
