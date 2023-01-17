@@ -160,7 +160,7 @@ code {
 
 .skills #skills-brush {
   margin: 0 0 0 75%;
-  width: 40%;
+  width: 25%;
   position: absolute;
   display: block;
 }
@@ -201,7 +201,7 @@ code {
 /**********  Projects Page   **********/
 
 .projects #projects-title {
-  margin: 17% 0 0 40%;
+  margin: 20% 0 0 40%;
   color: #cfb2db;
   font-size: 6vw;
   font-family: Playfair Display, serif;
