@@ -201,7 +201,7 @@ code {
 /**********  Projects Page   **********/
 
 .projects #projects-title {
-  margin: 17% 0 5% 40%;
+  margin: 17% 0 0 40%;
   color: #cfb2db;
   font-size: 6vw;
   font-family: Playfair Display, serif;
@@ -216,8 +216,14 @@ code {
   line-height: 60px;
 }
 
+#projects-brush {
+  width: 12%;
+  position: absolute;
+  right: 56%;
+}
+
 .projects .projects-container {
-  margin: 10% 0;
+  margin: 12% 0;
 }
 
 .project-box {
@@ -228,11 +234,11 @@ code {
 
 #flag-title {
   color: #cfb2db;
-  font-size: 2vw;
+  font-size: 2.3vw;
   font-family: Playfair Display, serif;
   font-weight: 900;
   text-align: center;
-  line-height: 40px;
+  line-height: 30px;
   margin: auto;
 }
 

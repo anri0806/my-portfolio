@@ -1,4 +1,3 @@
-import { Routes, Route } from "react-router-dom";
 
 import Home from "./Home";
 import AboutMe from "./AboutMe";
@@ -11,12 +10,6 @@ import "../App.css";
 function App() {
   return (
     <div className="App">
-      {/* <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<AboutMe />} />
-        <Route path="skills" element={<Skills />} />
-        <Route path="projects" element={<Projects />} />
-      </Routes> */}
       <Home />
       <AboutMe />
       <Skills />
