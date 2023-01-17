@@ -5,15 +5,15 @@ import demoLogo from "../images/demo.png";
 function InviteOnly() {
   return (
     <div className="project-box">
+      <p id="flag-title">Invite Only</p>
       <div className="project">
         <div className="default-image">
           <img src={inviteOnly} alt="invite only" />
         </div>
         <div className="hover-info">
-          <h3>Invite Only</h3>
           <p>
             A private social media app where invited users can share posts and
-            photos and create their own private group.
+            photos and create private group.
           </p>
           <p className="project-technologies">React</p>
           <p className="project-technologies">Ruby on Rails</p>

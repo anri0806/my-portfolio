@@ -5,12 +5,12 @@ import demoLogo from "../images/demo.png";
 function FlagsOfTheWorld() {
   return (
     <div className="project-box">
+      <p id="flag-title">Flags of the World</p>
       <div className="project">
         <div className="default-image">
           <img src={flagsWorld} alt="flags of the world" />
         </div>
         <div className="hover-info">
-          <h3>Flags of the World</h3>
           <p>
             A flag quiz game app that allows users to learn country flags and
             test their knowledge.
