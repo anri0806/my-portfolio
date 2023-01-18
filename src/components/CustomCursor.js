@@ -4,11 +4,11 @@ export default function CustomCursor() {
   return (
     <AnimatedCursor
       innerSize={13}
-      outerSize={8}
+      outerSize={20}
       color="250, 234, 249"
       outerAlpha={0.2}
-      innerScale={0.7}
-      outerScale={5}
+      innerScale={1}
+      outerScale={2.5}
       clickables={[
         "a",
         'input[type="text"]',
