@@ -5,27 +5,26 @@ import myPic from "../images/home-mypic.jpeg";
 import githubLogo from "../images/github-mark.png";
 import linkedInLogo from "../images/LI-In-Bug.png";
 import mediumLogo from "../images/medium.png";
-import akLogo from "../images/ak-logo.png";
-
 
 function Home() {
   return (
     <section className="home" id="home">
-      <img id="home-ak-logo" src={akLogo} alt="AK" />
       <p id="home-my-name">Anri Kawahara</p>
       <img id="home-my-pic" src={myPic} alt="snow view" />
       <HomeNavBar />
       <img id="home-brush" src={brushImg} alt="brush" />
       <p id="home-job-title">Full Stack Software Engineer</p>
-      <a href="https://github.com/anri0806">
-        <img className="logo-link" src={githubLogo} alt="github logo" />
-      </a>
-      <a href="https://www.linkedin.com/in/anri-kawahara-63460358/">
-        <img className="logo-link" src={linkedInLogo} alt="linkedIn logo" />
-      </a>
-      <a href="https://medium.com/@anri.kawahara">
-        <img className="logo-link" src={mediumLogo} alt="medium logo" />{" "}
-      </a>
+      <div id="home-links">
+        <a href="https://github.com/anri0806">
+          <img className="logo-link" src={githubLogo} alt="github logo" />
+        </a>
+        <a href="https://www.linkedin.com/in/anri-kawahara-63460358/">
+          <img className="logo-link" src={linkedInLogo} alt="linkedIn logo" />
+        </a>
+        <a href="https://medium.com/@anri.kawahara">
+          <img className="logo-link" src={mediumLogo} alt="medium logo" />{" "}
+        </a>
+      </div>
     </section>
   );
 }

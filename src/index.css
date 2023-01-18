@@ -14,17 +14,34 @@ code {
 }
 
 /**********  NavBar   **********/
-.nav-link {
+
+#nav-bar {
+  position: fixed;
+  top: 1%;
+  left: 65%;
+  width: 100%;
+}
+
+#nav-bar .nav-link {
+  font-size: 1em;
+  margin-right: 3%;
+  color: #495251;
 }
 
 /**********  HOME PAGE   **********/
 
-.home #home-ak-logo {
-  width: 4%;
-  position: absolute;
+#ak-logo-link {
+  position: fixed;
+  top: 1%;
+  right: 93%;
+}
+
+#ak-logo {
+  width: 60%;
+}
+
+.home {
   top: 0;
-  left: 0;
-  margin: 10px 19px;
 }
 
 .home #home-my-name {
@@ -51,14 +68,14 @@ code {
   right: 63%;
 }
 
-.nav-bar {
+.home-nav {
   margin-top: 6%;
   margin-left: 75%;
   display: block;
   text-align: left;
 }
 
-.nav-bar .home-nav-link {
+.home-nav .home-nav-link {
   color: #cfb2db;
   padding: 0;
 }
@@ -70,7 +87,11 @@ code {
   margin-top: 14%;
 }
 
-.logo-link {
+#home-links {
+  margin-bottom: 4%;
+}
+
+#home-links .logo-link {
   width: 3%;
   margin: 0 9px;
 }
@@ -80,7 +101,7 @@ code {
 .carousel {
   width: 35%;
   height: auto;
-  margin: 14% 4% 0%;
+  margin: 12% 4% 0%;
   display: inline-block;
   /* box-shadow: 0 4px 8px 0 rgba(169, 164, 164, 0.455),
     0 6px 20px 0 rgba(202, 199, 199, 0.431); */
@@ -94,12 +115,12 @@ code {
 .about-me #carousel-brush {
   width: 14%;
   position: absolute;
-  top: 146%;
+  top: 143%;
   right: 5.5%;
 }
 
 .bio #about-me-title {
-  margin: 2% 0 10% 0;
+  margin: 0 0 10% 0;
   color: #cfb2db;
   font-size: 6vw;
   font-family: Playfair Display, serif;
@@ -117,7 +138,7 @@ code {
   font-size: 1.1vw;
   display: inline-block;
   width: 39%;
-  margin: 8% 3% 6%;
+  margin: 6% 3% 6%;
   vertical-align: top;
   color: #e8e4ea;
 }
@@ -125,6 +146,7 @@ code {
 #about-me-icons p {
   color: #e8e4ea;
   font-size: 12px;
+  margin: 0;
 }
 
 #about-me-icons .about-me-hobby-icon {
@@ -138,6 +160,10 @@ code {
 #about-me-icons .about-me-logo {
   width: 40px;
   margin: 0;
+}
+
+.about-me a {
+  color: #495251;
 }
 
 /**********  Skills Page   **********/
@@ -223,7 +249,7 @@ code {
 }
 
 .projects .projects-container {
-  margin: 12% 0;
+  margin: 10% 0 10% 0;
 }
 
 .project-box {

@@ -2,7 +2,7 @@ import Nav from "react-bootstrap/Nav";
 
 function HomeNavBar() {
   return (
-    <Nav className="nav-bar">
+    <Nav className="home-nav">
       <Nav.Link href="#about-me" className="home-nav-link">
         01. About me
       </Nav.Link>

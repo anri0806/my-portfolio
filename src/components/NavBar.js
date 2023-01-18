@@ -1,24 +1,18 @@
 import Nav from "react-bootstrap/Nav";
-import Navbar from 'react-bootstrap/Navbar'
 
 function NavBar() {
   return (
-    <>
-      <Nav navbarScroll>
-        <Nav.Link className="nav-link" href="#home">
-          Home
-        </Nav.Link>
+      <Nav id="nav-bar">
         <Nav.Link className="nav-link" href="#about-me">
-          About Me
+          01. About Me
         </Nav.Link>
         <Nav.Link className="nav-link" href="#skills">
-          Skills
+          02. Skills
         </Nav.Link>
-        <Nav.Link className="nav-link" href="#proj">
-          Projects
+        <Nav.Link className="nav-link" href="#projects">
+          03. Projects
         </Nav.Link>
       </Nav>
-    </>
   );
 }
 
