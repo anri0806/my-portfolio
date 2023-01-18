@@ -15,17 +15,26 @@ code {
 
 /**********  NavBar   **********/
 
-#nav-bar {
-  position: fixed;
-  top: 1%;
-  left: 65%;
-  width: 100%;
+.nav-bar {
+  content-visibility: hidden;
 }
 
-#nav-bar .nav-link {
-  font-size: 1em;
+.nav-bar-visible {
+  position: fixed;
+  top: 0;
+  /* left: 66%; */
+  width: 100%;
+  background-color: #2a302fec;
+}
+
+.nav-bar .nav-visible {
+  font-size: 0.9em;
   margin-right: 3%;
-  color: #495251;
+  color: white;
+}
+
+.nav-bar .nav-not-visible {
+  content-visibility: hidden;
 }
 
 /**********  HOME PAGE   **********/
@@ -115,7 +124,7 @@ code {
 .about-me #carousel-brush {
   width: 14%;
   position: absolute;
-  top: 143%;
+  top: 150%;
   right: 5.5%;
 }
 
