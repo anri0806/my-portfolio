@@ -24,7 +24,9 @@ function NavBar() {
   }, []);
 
   return (
-    <Nav className={visible ? "nav-bar-visible" : "nav-bar"}>
+    <Nav
+      className={visible ? "nav-bar-visible justify-content-end" : "nav-bar"}
+    >
       <Nav.Link
         className={visible ? "nav-visible" : "nav-not-visible"}
         href="#about-me"
