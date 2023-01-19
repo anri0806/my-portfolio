@@ -1,5 +1,6 @@
 import HomeNavBar from "./HomeNavBar";
 
+
 import brushImg from "../images/home-brush.png";
 import myPic from "../images/home-mypic.jpeg";
 import githubLogo from "../images/github-mark.png";

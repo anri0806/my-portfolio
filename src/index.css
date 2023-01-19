@@ -15,10 +15,7 @@ code {
 
 /**********  Animated Cursor   **********/
 
-.selectingcolor {
-  color: #51505011;
-  color: #cfcdd069;
-}
+
 
 /**********  NavBar   **********/
 
@@ -244,7 +241,7 @@ code {
 /**********  Projects Page   **********/
 
 .projects #projects-title {
-  margin: 20% 0 0 40%;
+  margin: 20% 0 10% 40%;
   color: #cfb2db;
   font-size: 6vw;
   font-family: Playfair Display, serif;
@@ -266,13 +263,15 @@ code {
 }
 
 .projects .projects-container {
-  margin: 10% 0 10% 0;
+  /* margin: 10% 0 10% 0; */
+  margin: auto;
+  width: 80%;
 }
 
 .project-box {
   display: inline-block;
   margin: 10px;
-  width: 23%;
+  width: 30%;
 }
 
 #flag-title {
@@ -293,7 +292,7 @@ code {
 
 .default-image img {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 30px;
 }
 
 .project .hover-info {
@@ -306,7 +305,7 @@ code {
   height: 100%;
   padding: 26px 22px;
   display: none;
-  border-radius: 5px;
+  border-radius: 30px;
 }
 
 .project .hover-info a {
