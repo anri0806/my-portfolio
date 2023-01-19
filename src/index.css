@@ -59,7 +59,7 @@ code {
   font-size: 7vw;
   font-family: Playfair Display, serif;
   font-weight: 900;
-  margin-top: 7%;
+  margin-top: 5%;
   margin-bottom: 0;
   position: relative;
   display: inline-block;
@@ -68,14 +68,14 @@ code {
 .home #home-my-pic {
   width: 40%;
   position: absolute;
-  top: 28%;
+  top: 24%;
   right: 30%;
 }
 
 .home #home-brush {
   width: 12%;
   position: absolute;
-  top: 70%;
+  top: 66%;
   right: 63%;
 }
 
@@ -97,7 +97,7 @@ code {
   font-family: Playfair Display, serif;
   font-weight: 700;
   font-size: 2vw;
-  margin-top: 14%;
+  margin-top: 12%;
 }
 
 #home-links {
@@ -106,7 +106,7 @@ code {
 
 #home-links .logo-link {
   width: 3%;
-  margin: 0 9px;
+  margin: 0 9px 21px;
 }
 
 /**********  About Me Page   **********/
