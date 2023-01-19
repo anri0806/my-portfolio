@@ -1,4 +1,3 @@
-import NavBar from "./NavBar";
 
 import htmlLogo from "../images/html5.png";
 import cssLogo from "../images/css.png";
@@ -16,7 +15,6 @@ import brushImg3 from "../images/brush3.png";
 function Skills() {
   return (
     <section className="skills" id="skills">
-      {/* <NavBar /> */}
 
       <div className="skills-container">
         <p className="skill-category">Front end</p>

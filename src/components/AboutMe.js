@@ -1,6 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
 
-// import NavBar from "./NavBar";
 
 import profilePic1 from "../images/about-me-pic1.jpeg";
 import profilePic2 from "../images/about-me-pic2.jpeg";
@@ -17,11 +16,9 @@ import pianoLogo from "../images/piano.png";
 import flagLogo from "../images/countries.png";
 
 function AboutMe() {
-  /// ADD fun facts? => born and raised in Japan, memorized all the country flags
 
   return (
     <section className="about-me" id="about-me">
-      {/* <NavBar /> */}
       <div className="bio">
         <div id="about-me-title">
           <p style={{ fontSize: "4vw" }}>01. </p>

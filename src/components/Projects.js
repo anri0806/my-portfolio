@@ -1,4 +1,3 @@
-import NavBar from "./NavBar";
 import InviteOnly from "./InviteOnly";
 import FamilyAlbum from "./FamilyAlbum";
 import BabyLogbook from "./BabyLogbook";
@@ -9,7 +8,6 @@ import brushImg from "../images/home-brush.png";
 function Projects() {
   return (
       <section className="projects" id="projects">
-        {/* <NavBar /> */}
 
         <div id="projects-title">
           <p style={{ fontSize: "4vw" }}>03. </p>
