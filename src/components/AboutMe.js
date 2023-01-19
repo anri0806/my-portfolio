@@ -58,7 +58,6 @@ function AboutMe() {
       <img id="carousel-brush" src={brushImg2} alt="brush 2" />
 
       <div id="about-me-icons">
-        {/* <p>Aside from work, my passions are:</p> */}
         <div className="about-me-hobby-icon">
           <img className="about-me-logo" src={travelLogo} alt="traveling" />
           <p>traveling</p>

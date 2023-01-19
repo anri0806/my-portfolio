@@ -13,11 +13,6 @@ code {
     monospace;
 }
 
-/**********  Animated Cursor   **********/
-
-.test {
-  color: #d8c9b2;
-}
 
 /**********  NavBar   **********/
 
@@ -30,7 +25,6 @@ code {
   top: 2%;
   left: 7%;
   width: 90%;
-  /* background-color: #2a302fec; */
   padding: 7px;
 }
 
@@ -209,12 +203,10 @@ code {
 }
 
 .skills #skills-brush {
-  /* margin: 0; */
   top: 270%;
   right: 0;
   width: 25%;
   position: absolute;
-  /* display: block; */
 }
 
 .skills-container {
