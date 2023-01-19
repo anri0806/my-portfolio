@@ -38,6 +38,7 @@ code {
   font-size: 0.8em;
   margin-right: 3%;
   color: white;
+  text-shadow: 0 0 3px white;
 }
 
 .nav-bar .nav-not-visible {
@@ -95,11 +96,13 @@ code {
 .home-nav .home-nav-link {
   color: white;
   padding: 0;
+  text-shadow: 0 0 3px white;
 }
 
 .home #home-job-title {
   color: #cfb2db;
   font-family: Playfair Display, serif;
+  font-weight: 700;
   font-size: 2vw;
   margin-top: 14%;
 }
@@ -190,7 +193,7 @@ code {
 /**********  Skills Page   **********/
 
 .skills #skills-title {
-  margin: 22% 0 0 0;
+  margin: 22% 9% 0 0;
   color: #cfb2db;
   font-size: 6vw;
   font-family: Playfair Display, serif;
