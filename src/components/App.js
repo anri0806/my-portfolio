@@ -3,6 +3,8 @@ import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import NavBar from "./NavBar";
+import ContactMe from "./ContactMe";
+
 import CustomCursor from "./CustomCursor";
 
 import akLogo from "../images/ak-logo.png";
@@ -10,10 +12,7 @@ import akLogo from "../images/ak-logo.png";
 import "../index.css";
 import "../App.css";
 
-
-
 function App() {
-
   return (
     <div className="App">
       <CustomCursor />
@@ -25,6 +24,7 @@ function App() {
       <AboutMe />
       <Skills />
       <Projects />
+      <ContactMe />
     </div>
   );
 }

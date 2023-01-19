@@ -45,6 +45,12 @@ function NavBar() {
       >
         03. Projects
       </Nav.Link>
+      <Nav.Link
+        className={visible ? "nav-visible" : "nav-not-visible"}
+        href="#contact-me"
+      >
+        04. Contact
+      </Nav.Link>
     </Nav>
   );
 }

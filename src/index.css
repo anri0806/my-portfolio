@@ -13,7 +13,6 @@ code {
     monospace;
 }
 
-
 /**********  NavBar   **********/
 
 .nav-bar {
@@ -336,4 +335,26 @@ code {
 
 .project-demo-logo {
   width: 35px;
+}
+
+/**********  Contact   **********/
+
+.contact-me {
+  /* margin: 5%; */
+}
+
+.contact-me #contact-me-title {
+  margin: 22% 0 6% 16%;
+  color: #cfb2db;
+  font-size: 5.4vw;
+  font-family: Playfair Display, serif;
+  width: 70%;
+  text-align: left;
+  display: inline-block;
+}
+
+.contact-me #contact-me-title p {
+  margin: 0;
+  padding: 0;
+  line-height: 60px;
 }

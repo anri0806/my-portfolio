@@ -12,6 +12,9 @@ function HomeNavBar() {
       <Nav.Link href="#projects" className="home-nav-link">
         03. Projects
       </Nav.Link>
+      <Nav.Link href="#contact-me" className="home-nav-link">
+        04. Contact
+      </Nav.Link>
     </Nav>
   );
 }
