@@ -1,5 +1,7 @@
 import { Button } from "react-bootstrap";
 
+import contactMePic from "../images/contact-me.jpg";
+
 export default function ContactMe() {
   return (
     <section className="contact-me" id="contact-me">
@@ -12,7 +14,7 @@ export default function ContactMe() {
           style={{
             fontSize: "1.1vw",
             fontFamily: "Roboto",
-            width: "30%",
+            width: "70%",
             lineHeight: "19px",
             marginTop: "40px",
           }}
@@ -26,6 +28,7 @@ export default function ContactMe() {
           </Button>
         </a>
       </div>
+      <img id="contact-me-pic" src={contactMePic} alt="phone" />
     </section>
   );
 }

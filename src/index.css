@@ -344,17 +344,26 @@ code {
 }
 
 .contact-me #contact-me-title {
-  margin: 22% 0 6% 16%;
+  margin: 22% 5% 6% 5%;
   color: #cfb2db;
   font-size: 5.4vw;
   font-family: Playfair Display, serif;
-  width: 70%;
+  width: 30%;
   text-align: left;
   display: inline-block;
+  vertical-align: top;
 }
+
 
 .contact-me #contact-me-title p {
   margin: 0;
   padding: 0;
   line-height: 60px;
+}
+
+
+.contact-me #contact-me-pic {
+  width: 40%;
+  display: inline-block;
+  margin: 15% 0 0 0;
 }
