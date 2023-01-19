@@ -15,6 +15,10 @@ code {
 
 /**********  Animated Cursor   **********/
 
+.test {
+  color: #d8c9b2;
+}
+
 /**********  NavBar   **********/
 
 .nav-bar {
@@ -64,6 +68,7 @@ code {
   margin-top: 7%;
   margin-bottom: 0;
   position: relative;
+  display: inline-block;
 }
 
 .home #home-my-pic {
@@ -185,7 +190,7 @@ code {
 /**********  Skills Page   **********/
 
 .skills #skills-title {
-  margin: 24% 0 0 0;
+  margin: 22% 0 0 0;
   color: #cfb2db;
   font-size: 6vw;
   font-family: Playfair Display, serif;
@@ -201,43 +206,45 @@ code {
 }
 
 .skills #skills-brush {
-  margin: 0 0 2% 75%;
+  /* margin: 0; */
+  top: 270%;
+  right: 0;
   width: 25%;
-  /* position: absolute; */
-  display: block;
+  position: absolute;
+  /* display: block; */
 }
 
 .skills-container {
-  margin: 8% 4% 0 2%;
-  text-align: left;
+  margin: 8% 10% 8% 2%;
   display: inline-block;
-  width: 50%;
+  width: 45%;
 }
 
-.skill-category {
-  font-family: Playfair Display, serif;
-  font-weight: 900;
-  font-size: 25px;
-  color: white;
-  border-left: 1px solid white;
-  padding-left: 10px;
-  margin: 9% 0 0 0;
-}
-
-.skill {
-  margin: 15px 15px 15px 0;
+.skills-logo-container {
+  align-content: center;
   display: inline-block;
-  color: rgb(250, 234, 249);
-  padding-left: 8px;
-  /* background-color: rgba(225, 201, 219, 0.849); */
-  /* border-radius: 9px; */
-  padding: 1px 7px;
-  /* font-weight: bold; */
-  font-size: 15px;
+  margin: 25px;
 }
 
 .skills-logo {
-  width: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px 0 rgba(169, 164, 164, 0.455),
+    0 6px 20px 0 rgba(202, 199, 199, 0.431);
+}
+
+.skills-logo img {
+  width: 50%;
+  height: 50%;
+  margin: 20px;
+}
+
+.skill {
+  margin: 0;
+  display: inline-block;
+  color: rgb(250, 234, 249);
+  font-size: 13px;
 }
 
 /**********  Projects Page   **********/
@@ -279,16 +286,6 @@ code {
   margin: 10px;
   width: 40%;
 }
-
-/* #flag-title {
-  color: #cfb2db;
-  font-size: 2.3vw;
-  font-family: Playfair Display, serif;
-  font-weight: 900;
-  text-align: center;
-  line-height: 30px;
-  margin: auto;
-} */
 
 .project {
   width: 100%;
