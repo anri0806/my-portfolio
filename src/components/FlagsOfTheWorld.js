@@ -1,6 +1,6 @@
 import flagsWorld from "../images/flag-world.png";
 import githubLogo from "../images/github-mark.png";
-import demoLogo from "../images/demo.png";
+// import demoLogo from "../images/demo.png";
 
 function FlagsOfTheWorld() {
   return (
