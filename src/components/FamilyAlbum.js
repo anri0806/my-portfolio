@@ -5,12 +5,12 @@ import demoLogo from "../images/demo.png";
 function FamilyAlbum() {
   return (
     <div className="project-box">
-      <p id="flag-title">Family Album</p>
       <div className="project">
         <div className="default-image">
           <img src={familyAlbum} alt="family album" />
         </div>
         <div className="hover-info">
+          <h5>Family Album</h5>
           <p>
             A photo album app where users can organize and safely share photos
             with family and friends.

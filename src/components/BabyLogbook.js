@@ -5,12 +5,12 @@ import demoLogo from "../images/demo.png";
 function BabyLogbook() {
   return (
     <div className="project-box">
-      <p id="flag-title">Baby Logbook</p>
       <div className="project">
         <div className="default-image">
           <img src={babyLogBook} alt="baby logbook" />
         </div>
         <div className="hover-info">
+          <h5>Baby Logbook</h5>
           <p>
             A daily tracker where parents can record their baby's milestones,
             doctor appointments and immunizations.

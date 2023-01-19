@@ -5,12 +5,12 @@ import demoLogo from "../images/demo.png";
 function FlagsOfTheWorld() {
   return (
     <div className="project-box">
-      <p id="flag-title">Flags of the World</p>
       <div className="project">
         <div className="default-image">
           <img src={flagsWorld} alt="flags of the world" />
         </div>
         <div className="hover-info">
+          <h5>Flags of the World</h5>
           <p>
             A flag quiz game app that allows users to learn country flags and
             test their knowledge.
@@ -19,7 +19,6 @@ function FlagsOfTheWorld() {
           <p className="project-technologies">Javascript</p>
           <p className="project-technologies">JSON</p>
           <p className="project-technologies">MUI</p>
-
           <div className="project-logo-container">
             {/* <a href="">
             <p>demo</p>
