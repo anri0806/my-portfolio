@@ -30,16 +30,16 @@ function AboutMe() {
           Hello! My name is <b>Anri Kawahara</b> and I was born and raised in{" "}
           <b>Japan</b>🇯🇵 I am a <b>Full Stack Software Developer</b> with a
           background in the Hospitality and Real Estate industry. My interest in
-          programming and technology began in the middle school. I created my
+          the programming and technology began in the middle school. I created my
           very first website using HTML and{" "}
-          <b>completely fell in love with coding</b>. During pandemic I finally
+          <b>completely fell in love with coding</b>. During the pandemic, I finally
           decided to pursue my passion and enrolled in the Flatiron School's
-          Full Stack Web Development Program where I fell in love with
+          Full Stack Web Development Program, where I fell in love with
           programming again!
         </p>
         <p>
-          I believe that the <b>passion can be driving force</b> to learn more{" "}
-          and give me all important sense of purpose to be{" "}
+          I believe that the <b>passion is the driving force of success</b>{" "}
+          and it gives me a sense of purpose to be{" "}
           <b>the best possible version of me</b>.
         </p>
       </div>
@@ -68,7 +68,7 @@ function AboutMe() {
         </div>
         <div className="about-me-hobby-icon">
           <img className="about-me-logo" src={gameLogo} alt="game" />
-          <p>playing game</p>
+          <p>playing video games</p>
         </div>
         <div className="about-me-hobby-icon">
           <img className="about-me-logo" src={dogLogo} alt="boston terrier" />

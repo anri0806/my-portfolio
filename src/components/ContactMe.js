@@ -19,8 +19,8 @@ export default function ContactMe() {
             marginTop: "40px",
           }}
         >
-          Whether you have a question or just want to say hi, I’ll try my best
-          to get back to you!
+          Feel free to contact me with any questions. I will get back to you as
+          soon as possible!
         </p>
         <a href="mailto:anri0806ny@gmail.com">
           <Button variant="light">
