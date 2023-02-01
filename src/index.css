@@ -122,61 +122,53 @@ code {
     width: 80%;
   }
 
-  .home #home-my-pic {
-    width: 80%;
-    top: 6%;
-    left: 10%;
-    right: 10%;
-    display: block;
-    margin-bottom: 20%;
-  }
-
-  .home #home-brush {
-    visibility: hidden;
-  }
-
   .home #home-my-name {
     color: #cfb2db;
     font-size: 7vw;
     font-family: Playfair Display, serif;
     font-weight: 900;
     margin-top: 4.8%;
-    margin-bottom: 1%;
+  }
+
+  .home #home-my-pic {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: initial;
+  }
+
+  .home #home-brush {
+    visibility: hidden;
   }
 
   .home-nav {
-    position: relative;
-    top: 25vw;
+    margin: 5% 0 0 0;
+    display: inline-block;
   }
 
   .home-nav .home-nav-link {
-    font-size: 8px;
+    font-size: 1.8vw;
     color: white;
-    padding: 0;
-    text-shadow: 0 0 3px rgb(32, 29, 29);
+    text-shadow: 0 0 3px rgb(214, 194, 194);
   }
 
   .home #home-job-title {
     color: #cfb2db;
-    text-shadow: 0 0 3px rgb(67, 59, 59);
     font-family: Playfair Display, serif;
     font-weight: 700;
     font-size: 2.9vw;
-    top: 6vw;
-    right: 20vw;
-    position: relative;
+    margin: 3% 0 0 0;
   }
 
   #home-links {
-    margin-bottom: 10%;
-    margin-top: 3%;
-    right: 32%;
-    position: relative;
+    margin-bottom: 5%;
+    margin-top: 1%;
   }
 
   #home-links .logo-link {
     width: 3%;
     margin: 0 5px;
+    display: inline-block;
   }
 }
 
