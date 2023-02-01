@@ -12,7 +12,9 @@ function Home() {
     <section className="home" id="home">
       <p id="home-my-name">Anri Kawahara</p>
       <img id="home-my-pic" src={myPic} alt="snow view" />
+
       <HomeNavBar />
+      
       <img id="home-brush" src={brushImg} alt="brush" />
       <p id="home-job-title">Full Stack Software Engineer</p>
       <div id="home-links">

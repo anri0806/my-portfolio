@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -12,6 +13,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* @media only screen and (min-width: 1440px) { */
+
 
 /**********  NavBar   **********/
 
@@ -92,6 +96,7 @@ code {
   text-shadow: 0 0 3px white;
 }
 
+
 .home #home-job-title {
   color: #cfb2db;
   font-family: Playfair Display, serif;
@@ -107,6 +112,62 @@ code {
 #home-links .logo-link {
   width: 3%;
   margin: 0 9px 21px;
+
+}
+
+@media only screen and (max-width: 800px) {
+  #ak-logo-link {
+    position: fixed;
+    top: 0.5%;
+    right: 90%;
+  }
+
+  #ak-logo {
+    width: 80%;
+  }
+
+  .home #home-my-pic {
+    width: 80%;
+    /* position: absolute; */
+    top: 6%;
+    align-items: center;
+  }
+
+   .home #home-brush {
+    visibility: hidden;
+   }
+
+  .home #home-my-name {
+    color: #cfb2db;
+    font-size: 7vw;
+    font-family: Playfair Display, serif;
+    font-weight: 900;
+    margin-top: 4.8%;
+    margin-bottom: 0;
+  }
+
+  .home #home-job-title {
+    visibility: hidden;
+
+    color: #cfb2db;
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+    font-size: 2.5vw;
+    /* margin-top: 12%; */
+  }
+
+  .home-nav {
+    visibility: hidden;
+
+    margin-top: 6%;
+    margin-left: 80%;
+    display: block;
+    text-align: left;
+  }
+
+  .home-nav .home-nav-link {
+    font-size: 8px;
+  }
 
 }
 
@@ -210,7 +271,7 @@ code {
 }
 
 .skills-container {
-  margin: 8% 10% 8% 2%;
+  margin: 12% 10% 15% 2%;
   display: inline-block;
   width: 45%;
 }
@@ -221,9 +282,11 @@ code {
   margin: 25px;
 }
 
+
+
 .skills-logo {
-  width: 80px;
-  height: 80px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
   box-shadow: 0 4px 6px 0 rgba(169, 164, 164, 0.455),
     0 6px 20px 0 rgba(202, 199, 199, 0.431);
@@ -232,7 +295,7 @@ code {
 .skills-logo img {
   width: 50%;
   height: 50%;
-  margin: 20px;
+  margin: 27%;
 }
 
 .skill {
@@ -368,3 +431,6 @@ code {
   display: inline-block;
   margin: 15% 0 0 0;
 }
+
+/* } */
+
