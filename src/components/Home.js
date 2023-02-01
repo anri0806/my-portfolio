@@ -14,8 +14,9 @@ function Home() {
       <img id="home-my-pic" src={myPic} alt="snow view" />
 
       <HomeNavBar />
-      
+
       <img id="home-brush" src={brushImg} alt="brush" />
+      
       <p id="home-job-title">Full Stack Software Engineer</p>
       <div id="home-links">
         <a href="https://github.com/anri0806">
