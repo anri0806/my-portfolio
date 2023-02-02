@@ -13,7 +13,6 @@ code {
     monospace;
 }
 
-
 /**********  NavBar   **********/
 
 .nav-bar {
@@ -44,7 +43,11 @@ code {
     visibility: hidden;
   }
 
-  .nav-bar-visible {
+  .nav-bar {
+    visibility: hidden;
+  }
+
+  .nav-visible {
     visibility: hidden;
   }
 }
@@ -616,7 +619,7 @@ code {
     vertical-align: top;
   }
 
-  .contact-me #contact-me-title #title p{
+  .contact-me #contact-me-title #title p {
     margin: 0;
     padding: 0;
     line-height: 80%;
