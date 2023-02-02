@@ -280,7 +280,7 @@ code {
     display: inline-block;
     width: 6%;
     vertical-align: top;
-    margin: 0 2.6% 0 2.6% ;
+    margin: 0 2.6% 0 2.6%;
   }
 
   #about-me-icons .about-me-logo {
@@ -354,7 +354,6 @@ code {
 /*      Skills - Mobile responsive     */
 
 @media only screen and (max-width: 1200px) {
-
   .skills #skills-brush {
     visibility: hidden;
   }
@@ -375,26 +374,25 @@ code {
     margin: 7% 0 0 0;
     width: 80%;
   }
-  
+
   .skills-logo-container {
     margin: 2%;
   }
-  
+
   .skills-logo {
     width: 10vw;
     height: 10vw;
   }
-  
+
   .skills-logo img {
     width: 50%;
     height: 50%;
     margin: 27%;
   }
-  
-.skills-logo-container  .skill {
+
+  .skills-logo-container .skill {
     font-size: 2.3vw;
   }
-
 }
 
 /**********  Projects Page   **********/
@@ -493,10 +491,42 @@ code {
   width: 35px;
 }
 
+/*      Projects - Mobile responsive     */
+
+@media only screen and (max-width: 1200px) {
+  #projects-brush {
+    visibility: hidden;
+  }
+
+  .projects .projects-title {
+    margin: 10% 5% 0 5%;
+    font-size: 8vw;
+  }
+
+  .projects .projects-title p {
+    margin: 0;
+    padding: 0;
+    line-height: 80%;
+  }
+
+  .projects .projects-container {
+    margin: 10% 0 10% 3%;
+    width: 60%;
+  }
+
+  /* START FROM HERE*/
+
+  .project-box {
+    margin: 10px;
+    width: 80%;
+  }
+
+  
+}
+
 /**********  Contact   **********/
 
 .contact-me {
-  /* margin: 5%; */
 }
 
 .contact-me #contact-me-title {
@@ -522,4 +552,4 @@ code {
   margin: 15% 0 0 0;
 }
 
-/* } */
+/*  */
