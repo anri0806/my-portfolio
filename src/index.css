@@ -43,6 +43,10 @@ code {
   .nav-bar-visible {
     visibility: hidden;
   }
+
+  .nav-bar-visible {
+    visibility: hidden;
+  }
 }
 
 /**********  HOME PAGE   **********/
@@ -615,7 +619,7 @@ code {
   .contact-me #contact-me-title #title p{
     margin: 0;
     padding: 0;
-    line-height: 75%;
+    line-height: 80%;
     font-size: 6vw;
   }
 
@@ -623,7 +627,7 @@ code {
     font-size: 1.9vw;
     font-family: "Roboto";
     width: 70%;
-    line-height: 96%;
+    line-height: 90%;
     margin-top: 20%;
   }
 
