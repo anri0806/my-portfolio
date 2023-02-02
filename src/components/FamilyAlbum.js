@@ -11,7 +11,7 @@ function FamilyAlbum() {
         </div>
         <div className="hover-info">
           <h5>Family Album</h5>
-          <p>
+          <p id="project-info-p">
             A photo album app where users can organize and safely share photos
             with family and friends.
           </p>

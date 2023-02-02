@@ -11,7 +11,7 @@ function FlagsOfTheWorld() {
         </div>
         <div className="hover-info">
           <h5>Flags of the World</h5>
-          <p>
+          <p id="project-info-p">
             A flag quiz game app that allows users to learn country flags and
             test their knowledge.
           </p>
@@ -20,9 +20,6 @@ function FlagsOfTheWorld() {
           <p className="project-technologies">JSON</p>
           <p className="project-technologies">MUI</p>
           <div className="project-logo-container">
-            {/* <a href="">
-            <p>demo</p>
-          </a> */}
             <a href="https://github.com/anri0806/flags-of-the-world">
               <img
                 className="project-code-logo"

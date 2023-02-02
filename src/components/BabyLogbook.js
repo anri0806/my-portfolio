@@ -11,7 +11,7 @@ function BabyLogbook() {
         </div>
         <div className="hover-info">
           <h5>Baby Logbook</h5>
-          <p>
+          <p id="project-info-p">
             A daily tracker where parents can record their baby's milestones,
             doctor appointments and immunizations.
           </p>

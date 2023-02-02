@@ -11,7 +11,7 @@ function InviteOnly() {
         </div>
         <div className="hover-info">
           <h5>Invite Only</h5>
-          <p>
+          <p id="project-info-p">
             A private social media app where invited users can share posts and
             photos and create private group.
           </p>
