@@ -13,7 +13,6 @@ code {
     monospace;
 }
 
-/* @media only screen and (min-width: 1440px) { */
 
 /**********  NavBar   **********/
 
@@ -38,6 +37,12 @@ code {
 
 .nav-bar .nav-not-visible {
   content-visibility: hidden;
+}
+
+@media only screen and (max-width: 1200px) {
+  .nav-bar-visible {
+    visibility: hidden;
+  }
 }
 
 /**********  HOME PAGE   **********/
@@ -598,7 +603,7 @@ code {
 
 @media only screen and (max-width: 1200px) {
   .contact-me #contact-me-title {
-    margin: 10% 0;
+    margin: 13% 0;
     color: #cfb2db;
     font-family: Playfair Display, serif;
     width: 37%;
@@ -615,7 +620,7 @@ code {
   }
 
   #contact-me-title #contact-me-message {
-    font-size: 1.6vw;
+    font-size: 1.9vw;
     font-family: "Roboto";
     width: 70%;
     line-height: 96%;
@@ -625,7 +630,7 @@ code {
   .contact-me #contact-me-pic {
     width: 47%;
     display: inline-block;
-    margin: 13% 0 0 0;
+    margin: 14% 0 14% 0;
   }
 
   #contact-me-title #contact-button {
