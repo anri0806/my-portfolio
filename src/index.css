@@ -522,11 +522,11 @@ code {
   .project {
     width: 100%;
   }
-    
+
   .project .hover-info {
     padding: 6% 8%;
   }
-  
+
   .project .hover-info a {
     display: inline-block;
     margin: 0;
@@ -542,31 +542,26 @@ code {
     margin-bottom: 0;
     font-size: 2.8vw;
   }
-  
+
   .project-technologies {
     margin-top: 5%;
     font-size: 2.1vw;
   }
-  
+
   .project-logo-container {
     margin-top: 3%;
   }
-  
+
   .project-code-logo {
     width: 37%;
   }
-  
+
   .project-demo-logo {
     width: 55%;
   }
-  
-  
 }
 
 /**********  Contact   **********/
-
-.contact-me {
-}
 
 .contact-me #contact-me-title {
   margin: 22% 5% 6% 5%;
@@ -579,10 +574,18 @@ code {
   vertical-align: top;
 }
 
-.contact-me #contact-me-title p {
+.contact-me #contact-me-title #title {
   margin: 0;
   padding: 0;
   line-height: 60px;
+}
+
+.contact-me #contact-me-message {
+  font-size: 1.1vw;
+  font-family: "Roboto";
+  width: 70%;
+  line-height: 15px;
+  margin-top: 40px;
 }
 
 .contact-me #contact-me-pic {
@@ -591,4 +594,41 @@ code {
   margin: 15% 0 0 0;
 }
 
-/*  */
+/*      Contact - Mobile responsive     */
+
+@media only screen and (max-width: 1200px) {
+  .contact-me #contact-me-title {
+    margin: 10% 0;
+    color: #cfb2db;
+    font-family: Playfair Display, serif;
+    width: 37%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .contact-me #contact-me-title #title p{
+    margin: 0;
+    padding: 0;
+    line-height: 75%;
+    font-size: 6vw;
+  }
+
+  #contact-me-title #contact-me-message {
+    font-size: 1.6vw;
+    font-family: "Roboto";
+    width: 70%;
+    line-height: 96%;
+    margin-top: 20%;
+  }
+
+  .contact-me #contact-me-pic {
+    width: 47%;
+    display: inline-block;
+    margin: 13% 0 0 0;
+  }
+
+  #contact-me-title #contact-button {
+    font-size: 30%;
+  }
+}
