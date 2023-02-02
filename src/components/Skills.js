@@ -28,7 +28,7 @@ function Skills() {
         <div className="skills-logo-container">
           <div style={{ backgroundColor: "#b7cee0" }} className="skills-logo">
             <img
-              style={{ width: "50px", height: "50px", margin: "15px" }}
+              // style={{ width: "50%", height: "50%", margin: "15px" }}
               src={cssLogo}
               alt="css"
             />
@@ -73,7 +73,7 @@ function Skills() {
         <div className="skills-logo-container">
           <div style={{ backgroundColor: "#dbb0cc" }} className="skills-logo">
             <img
-              style={{ width: "50px", height: "50px", margin: "15px" }}
+              // style={{ width: "50px", height: "50px", margin: "15px" }}
               src={railsLogo}
               alt="rails"
             />
@@ -84,7 +84,7 @@ function Skills() {
         <div className="skills-logo-container">
           <div style={{ backgroundColor: "#b0b9db" }} className="skills-logo">
             <img
-              style={{ width: "50px", height: "50px", margin: "15px" }}
+              // style={{ width: "50px", height: "50px", margin: "15px" }}
               src={postgresLogo}
               alt="PostgreSQL"
             />
@@ -109,7 +109,7 @@ function Skills() {
         <div className="skills-logo-container">
           <div style={{ backgroundColor: "#d8c7b2" }} className="skills-logo">
             <img
-              style={{ width: "60%", height: "50%", margin: "20px 15px" }}
+              // style={{ width: "60%", height: "50%", margin: "20px 15px" }}
               src={awsLogo}
               alt="aws"
             />

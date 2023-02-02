@@ -111,6 +111,8 @@ code {
   margin: 0 9px 21px;
 }
 
+/*      HOME PAGE - Mobile responsive     */
+
 @media only screen and (max-width: 1200px) {
   #ak-logo-link {
     position: fixed;
@@ -123,10 +125,7 @@ code {
   }
 
   .home #home-my-name {
-    color: #cfb2db;
     font-size: 7vw;
-    font-family: Playfair Display, serif;
-    font-weight: 900;
     margin-top: 4.8%;
   }
 
@@ -148,14 +147,10 @@ code {
 
   .home-nav .home-nav-link {
     font-size: 1.8vw;
-    color: white;
     text-shadow: 0 0 3px rgb(214, 194, 194);
   }
 
   .home #home-job-title {
-    color: #cfb2db;
-    font-family: Playfair Display, serif;
-    font-weight: 700;
     font-size: 2.9vw;
     margin: 3% 0 0 0;
   }
@@ -168,7 +163,6 @@ code {
   #home-links .logo-link {
     width: 3%;
     margin: 0 5px;
-    display: inline-block;
   }
 }
 
@@ -246,6 +240,59 @@ code {
   color: #495251;
 }
 
+/*      About Me - Mobile responsive     */
+
+@media only screen and (max-width: 1200px) {
+  .about-me #carousel-brush {
+    visibility: hidden;
+  }
+
+  .bio {
+    font-size: 2vw;
+    width: 70%;
+    vertical-align: top;
+  }
+
+  .bio #about-me-title {
+    margin: 0 0 10% 0;
+    font-size: 8vw;
+  }
+
+  .bio #about-me-title p {
+    margin: 0;
+    padding: 0;
+    line-height: 75%;
+  }
+
+  .carousel {
+    width: 60%;
+    height: auto;
+    margin: 0 0 5% 0;
+  }
+
+  #about-me-icons p {
+    font-size: 2vw;
+    text-align: center;
+    margin: 0;
+  }
+
+  #about-me-icons .about-me-hobby-icon {
+    display: inline-block;
+    width: 6%;
+    vertical-align: top;
+    margin: 0 2.6% 0 2.6% ;
+  }
+
+  #about-me-icons .about-me-logo {
+    width: 100%;
+    margin: 0;
+  }
+
+  .about-me a {
+    font-size: 2vw;
+  }
+}
+
 /**********  Skills Page   **********/
 
 .skills #skills-title {
@@ -302,6 +349,52 @@ code {
   display: inline-block;
   color: rgb(250, 234, 249);
   font-size: 13px;
+}
+
+/*      Skills - Mobile responsive     */
+
+@media only screen and (max-width: 1200px) {
+
+  .skills #skills-brush {
+    visibility: hidden;
+  }
+  .skills #skills-title {
+    font-size: 8vw;
+    margin: 7% 0 14% 0;
+  }
+
+  .skills #skills-title p {
+    margin: 0;
+    padding: 0;
+    line-height: 80%;
+  }
+
+  .skills-container {
+    /* margin: 12% 10% 15% 2%; */
+    /* display: inline-block; */
+    margin: 7% 0 0 0;
+    width: 80%;
+  }
+  
+  .skills-logo-container {
+    margin: 2%;
+  }
+  
+  .skills-logo {
+    width: 10vw;
+    height: 10vw;
+  }
+  
+  .skills-logo img {
+    width: 50%;
+    height: 50%;
+    margin: 27%;
+  }
+  
+.skills-logo-container  .skill {
+    font-size: 2.3vw;
+  }
+
 }
 
 /**********  Projects Page   **********/

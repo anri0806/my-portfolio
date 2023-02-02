@@ -1,6 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
 
-
 import profilePic1 from "../images/about-me-pic1.jpeg";
 import profilePic2 from "../images/about-me-pic2.jpeg";
 import profilePic3 from "../images/about-me-pic3.jpeg";
