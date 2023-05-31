@@ -50,12 +50,12 @@ function Skills() {
           </div>
         </div>
 
-        <div className="skills-logo-container">
+        {/* <div className="skills-logo-container">
           <div style={{ backgroundColor: "#cdb3d7" }} className="skills-logo">
             <img src={reduxLogo} alt="redux" />
             <p className="skill"> Redux</p>
           </div>
-        </div>
+        </div> */}
         <div className="skills-logo-container">
           <div style={{ backgroundColor: "#e2cada" }} className="skills-logo">
             <img src={bootstrapLogo} alt="bootstrap" />
